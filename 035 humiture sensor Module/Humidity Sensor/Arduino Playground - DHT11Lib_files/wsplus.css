@@ -1,0 +1,100 @@
+/*  Copyright 2006-2007 Patrick R. Michaud (pmichaud@pobox.com)
+    This file is wsextra.css; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published
+    by the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.  */
+
+
+/*  The "rollover" style handles rollover images and text.  It works
+    by using absolute positioning to cause the "rollover" component
+    to display on top of the "non-rollover" component, and sets the
+    rollover as invisible (via opacity) until the mouse hovers over the
+    component. 
+*/
+.rollover { 
+  position:absolute; 
+  opacity:0; -moz-opacity:0; filter:alpha(opacity=0); 
+}
+.rollover:hover 
+  { opacity:1; -moz-opacity:1; filter:alpha(opacity=100); }
+
+/*  These are here for browsers that don't understand "opacity". */
+.rollover * { visibility:hidden; }
+.rollover:hover * { visibility:visible; }
+
+
+/*  A sidenote is a fixed-width frame with smaller text. */
+.sidenote { width:200px; font-size: smaller; }
+/*  A postit is a sidenote with a yellow background. */
+.postit { background-color: #ffffa1; }
+/*  These are bold title styles for sidenotes and postits. */
+.notetitle { font-weight:bold; }
+.postit .notetitle { padding: 0px 4px; background-color: #ffe53e; }
+
+
+/*  A "left-right indent", indenting both sides. */
+.lrindent { margin-left:40px; margin-right:40px; }
+
+
+/*  This provides a rounded background for a component. */
+.round {
+  min-height:40px;
+  padding: 15px 20px 15px 20px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -khtml-border-radius: 20px;
+}
+
+
+/*  The "tip", "important", and "warning" styles provide colored
+    backgrounds and associated icons. */
+.tip {
+  padding-left: 80px;
+  background: #ddffdd url(tip.gif) no-repeat 20px;
+}
+
+.important {
+  padding-left: 80px;
+  background: #ffffcc url(important.gif) no-repeat 20px;
+}
+
+.warning {
+  padding-left: 80px;
+  background: #ffdddd url(warning.gif) no-repeat 20px;
+}
+
+
+/* many other useful styles */
+
+.uppercase { text-transform: uppercase; }        /* all uppercase */
+.lowercase { text-transform: lowercase; }        /* all lowercase */
+.capitalize { text-transform: capitalize; }      /* ucfirst */
+.small-caps { font-variant: small-caps; }        /* small-caps */
+.smaller { font-size: smaller; }                 /* smaller text */
+.larger { font-size: larger; }                   /* larger text */
+.b, .bold { font-weight: bold; }                 /* bold text */
+.i, .italic { font-style: italic; }              /* italic text */
+.u, .underline { text-decoration: underline; }   /* underline */
+.absolute { position: absolute; }                /* absolute positioning */
+.relative { position: relative; }                /* relative positioning */
+
+
+/* a style for code blocks */
+.code { 
+  font-family:'Lucida Console','Andale Mono','Courier New',Courier, monospace;
+  font-size: 0.9em;
+  line-height:1.2em;
+  white-space: pre; 
+}
+.code .vspace { margin-top:0px; }
+.code pre { font-size:100%; }
+
+/* outline numbering for ordered lists -- use %outline% on the
+   first list item to enable it. */
+ol.outline { list-style-type:upper-roman; }
+ol.outline ol { list-style-type:upper-alpha; }
+ol.outline ol ol { list-style-type:decimal; }
+ol.outline ol ol ol { list-style-type:lower-roman; }
+ol.outline ol ol ol ol { list-style-type:lower-alpha; }
+

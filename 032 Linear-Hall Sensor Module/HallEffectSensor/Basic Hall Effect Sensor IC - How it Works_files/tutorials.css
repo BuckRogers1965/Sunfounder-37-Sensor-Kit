@@ -1,0 +1,95 @@
+body {background-color:#f3f3f3; margin:4px 0px 6px 1px; font-family:arial,helvetica,sans-serif;}
+#head {width:830px; border-top:4px solid #b9cadb; height:22px; margin:0px; padding-top:6px; background-color:#f3f3f3; text-align:center; position:relative;}
+#header {width:830px; border-top:4px solid #b9cadb; margin:0px; height:36px; background-color:#f3f3f3; text-align:left; position:relative;}
+#search {width:430px; margin-top:0px; margin-bottom:0px; padding-left:400px; padding-top:8px; position:absolute;}
+#search LABEL{font-size:10pt; color:#404040; text-align:center; font-weight:normal; margin:0px;}
+#navtrail {width:330px; margin-top:7px; padding-left:15px; padding-top:0px; position:absolute;}
+em a:link {font-size:10pt; color:#006eaa; font-style:normal; font-weight:600; text-align:left; text-decoration:none;}
+em a:visited {font-size:10pt; color:#006eaa; font-style:normal; font-weight:600; text-decoration:underline;}
+em a:hover {font-size:10pt; color:#78a0d2; font-style:normal; text-decoration:underline;}
+.btn {font-size:8pt; color:#4070a0; text-align:center; height:20px; font-weight:bold; border:1px solid #c0c0c0; background-image:url(form.gif); background-repeat:repeat; margin:0px 0px 2px 0px; padding:2px;}
+.utxt {font-size:9pt; color:#000040; text-align:left; font-weight:normal; text-decoration:none; line-height:1.4em;}
+.pagetxt {font-size:10pt; color:#000040; padding:0px 0px 0px 2px; margin:0px; font-weight:600; text-decoration:none;}
+.tentxt {font-size:10pt; color: #000040; text-align:left; font-weight:normal; text-decoration:none; line-height:1.5em;}
+.bmark {line-height:1.4em; font-size:12px; font-weight:400; color:#5078b4; text-align:center; padding:12px 0px 6px 0px;}
+.social {text-align:center; padding:0px 0px 6px 0px;}
+#sociallist ul{width:122px; margin-left:2px; padding:0px; list-style-type:none;}
+#sociallist ul li{padding:4px 0px 6px 0px}
+#sociallist div.gbutton{width:84px; margin:0px 0px 0px 24px;}
+#sociallist div.fbbutton{width:90px; margin:0px 0px 0px 20px;}
+#sociallist div.ambook120right{border:1px solid #d3d3d3; margin-top:6px; padding:0px;}
+#sociallist div.ad120right{padding:10px 0 10px 1px;}
+#socialbtns{display:inline-block; width:300px; margin-left:3px; padding:0px; float:left;}
+#socialbtns li{display:inline-block; width:auto; float:left; margin:4px 0px 0px 0px;}
+.tdtxt {font-size:8pt; color:#f3f3f3; background-color:#f3f3f3; text-align:left;}
+a.book:link  {font-size:10pt; font-weight:normal; color:#006eaa; text-align:left; text-decoration:none; margin:0px; padding:0px;}
+a.book:visited {font-size:10pt; font-weight:normal; color:#006eaa; text-align:left; text-decoration:none; margin:0px; padding:0px;}
+a.book:hover {font-size:10pt; font-weight:normal; color:#006eaa; text-decoration:underline;}
+.smtxt {font-size:8pt; color:#000000; text-align:center;}
+sup {position:relative; bottom:0.7em; vertical-align:baseline;}
+sub {position:relative; bottom:-0.3em; vertical-align:baseline;}
+.title {font-size:12pt; color:#5078B4; text-align:center; font-weight:bold; border:1px solid #ffffff; margin-bottom:1px; background-image:url(titlebar.gif); background-repeat:repeat;}
+h1 {font-size:16pt; color:#5078B4; text-align:left; font-weight:600; margin:0px; padding:2px;}
+.formtxt {font-size:8pt; color:#000066; text-align:left; border:1px solid #c0c0c0; background-color:#cfd9ff;}
+.htxt{font-size:12pt; color:#5078b4; text-align:left; text-decoration:underline; font-weight:600; margin:6px 0px 0px 4px;}
+.ntxt{font-size:10pt; color:#5078b4; text-align:center; text-decoration:none;}
+.mtxt{font-size:11pt; color:#5078b4; text-align:center; text-decoration:none;}
+.ptxt{font-size:10pt; color:#db4db8; text-align:center; text-decoration:none;}
+.gtxt{font-size:10pt; color:#008040; text-align:center; text-decoration:none;}
+.ltxt{font-size:14pt; color:#5078b4; text-align:center; text-decoration:none; font-weight:normal;}
+.litxt{font-size:11pt; color:#5078b4; text-align:left; text-decoration:none;}
+.h1txt{font-size:16pt; color:#5078b4; text-align:left; font-weight:normal;}
+.h3txt{font-size:10pt; color:#303090; text-align:left; text-decoration:underline;}
+.h2txt{font-size:12pt; color:#4182c8; text-align:left; text-decoration:underline;}
+.otxt{font-size:10pt; color:#5078b4; text-align:center; text-decoration:overline;}
+.white{font-size:10pt; color:#ffffff; text-decoration:none;}
+.black{font-size:10pt; color:#000000; text-decoration:none;}
+.magtxt{font-size:1.2em; color:#a52d2d; font-family:arial;}
+.leftbox {padding:14px 0px 0px 0px; text-align:center;}
+div.equation{border:solid 1px #c8c8f5; background:#fff8c6; padding:20px; text-align:center; margin-left:auto; margin-right:auto;}
+div.eeweb img {background-color:#fafafa; margin:0px; padding:0px; border:1px solid #d3d3d3;}
+div.eeweb ul {background-color:#fafafa; margin-left:2px; padding-bottom:4px; border:2px solid #d3d3d3;}
+div.eeweb ul li a:link, div.eeweb ul li a:visited {font-size:10pt; font-weight:normal; color:#5078b4; text-decoration:none; text-align:left; line-height:1.3em; margin:0px; padding-left:2px;}
+div.eeweb ul li a:hover{text-decoration:underline;}
+div.eeweb ul li.eeweb-fil{background-color:#d3d3d3; border:1px solid #fafafa; padding:4px 0px 6px 0px; margin-bottom:4px;}
+div.eeweb ul li.eeweb-fil a:link, div.eeweb ul li.eeweb-fil a:visited{font-size:9pt; text-align:left;}
+h4 {font-size:10pt; color:#5078b4; background-color:#f0f0f0; text-align:left; text-decoration:none; text-indent:6pt; display:block; border:#b7bcdd; border-style:solid; border-width:1px;}
+ul {list-style-type:none; width:92%; margin:0px auto; padding:0px; text-align:justify;}
+span.exclusive{display:inline; background:transparent url('exclusive.gif') no-repeat bottom center; margin:0px; padding:0px;}
+.bottomspace{line-height:14pt; width:100%; margin:0px; padding:0px;}
+.am120right{width:120px; border:1px solid #d3d3d3; margin:0px 0px 5px 10px; padding:2px; text-align:center; background-color:#e5eecc; float:right;}
+.ad120left{width:120px; margin:0px; padding:10px 0px 0px 5px;}
+.ad300left{width:300px; height:250px; margin:10px 20px 0px 0px; padding:0px; float:left; background-color:#fafafa;}
+.ad300right{width:300px; height:250px; margin:10px 0px 0px 20px; padding:0px; float:right; background-color:#fafafa;}
+.ad468center{width:468px; height:60px; margin:0px auto; padding:0px; background-color:#fafafa;}
+.ad468left{width:468px; height:60px; margin:0px; padding:0px 0px 0px 4px; background-color:#fafafa;}
+.ad728bottom{background-color:#f3f3f3; width:730px; margin:6px auto 0px auto;}
+.ad728ACbottom{background-color:#f3f3f3; width:730px; margin:0px; padding:6px 6px 0px 0px}
+.ad468link{background-color:#fafafa; margin:0px; padding:0px auto;}
+.chitikad{background-color:#fafafa; margin:0px; padding:0px auto;}
+.linktous {font-size:10pt; color:#008040; text-align:left; font-weight:normal; border:#5078a4; border-style:solid; border-width:1px; background-color:#f0f0f0;}
+.sectpages {background-color:#e4efee; border-top:thin solid #dcdcdc; border-bottom:thin solid #dcdcdc; border-left:none; border-right:none; margin:0px; padding:6px;}
+.OtherPage{background-color:#fff; border:1px solid #7d9ec0; margin:0px; padding:0px;}
+.CurrentPage {font-size:9pt; color:#fff; text-decoration:none; border:1px solid #7d9ec0; background-color:#c8c8c8; margin:0px; padding:0px;}
+a.HyperlinkStyle:link{font-size:9pt; color:#5078b4; text-decoration:none; margin:0px; padding:0px;}
+a.HyperlinkStyle:hover{font-size:9pt; color:#5078b4; text-decoration:underline; margin:0px; padding:0px;}
+a.HyperlinkStyle:visited{font-size:9pt; color:#5078b4; text-decoration:none; margin:0px; padding:0px;}
+.rule {height:6px; width:100%; background:#446791;}
+.copytxt {font-size:8pt; color:#000; text-align:center; font-weight:normal; background-color:#f3f3f3; margin:0px; padding:0px;}
+a.nav:link, a.nav:visited{font-size:8pt; color:#0080c8; text-align:left; text-decoration:none;}
+a.nav:hover{text-decoration:underline;}
+.cntr{width:540px; padding:10px; background-color:#fafafa; font-size:14pt; color:#008040; text-decoration:none;}
+.grntxt{font-size:12pt; color:#008040; text-align:left; font-weight:normal;}
+.grey{font-size:10pt; color:#999; text-decoration:none;}
+.fixlineG{background-color:#efefef; font-size:10pt; color:#000066; text-decoration:none;}
+.fixlineW{background-color:#fff; font-size:10pt; color:#000066; text-decoration:none;}
+a:link, a.nav1:link, a:visited, a.nav1:visited{font-size:10pt; color:#4169e1; text-decoration:none;}
+a:hover, a.nav1:hover{text-decoration:underline;}
+.linktous {font-size:10pt; color:#008040; text-align:left; font-weight:normal; border:#c0c0c0; border-style:solid; border-width:1px;}
+div.ambo a:link {font-size:13px; font-weight:bold; color:#5078b4; text-align:left; text-decoration:underline; margin:0px; padding:0px;}
+div.ambo a:hover {font-size:13px; font-weight:bold; color:#5078b4; text-align:left; text-decoration:underline; margin:0px; padding:0px;}
+div.ambo a:visited {font-size:13px; font-weight:bold; color:#5078b4; text-align:left; text-decoration:underline; margin:0px; padding:0px;}
+.amtxt {font-size:9pt; color:#000066; text-align:left;}
+.amaz a:link {font-size:10px; font-weight:normal; color:#666; text-align:left; text-decoration:none; margin:0px; padding:0px;}
+.amaz a:hover {font-size:10px; font-weight:normal; color:#666; text-align:left; text-decoration:none; margin:0px; padding:0px;}
+.amaz a:visited {font-size:10px; font-weight:normal; color:#666; text-align:left; text-decoration:none; margin:0px; padding:0px;}

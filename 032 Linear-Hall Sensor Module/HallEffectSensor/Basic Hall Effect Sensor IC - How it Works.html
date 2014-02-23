@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB"><head><script src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/auth014.js" type="text/javascript"></script><link media="all" href="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/widget115.css" type="text/css" rel="stylesheet">
+<title>Basic Hall Effect Sensor IC - How it Works</title>
+<meta name="description" content="Electronics Tutorial about the Hall Effect Sensor and Magnetic Hall Effect Switch which is an Output Transducer used to detect Magnetic Fields.">
+<meta name="keywords" content="hall effect sensor, electronics, electronics tutorial, hall effect switch, magnetic hall effect sensor, 
+hall effect magnetic sensor, hall effect current sensor, hall effect device, www.electronics-tutorials.ws">
+<meta name="author" content="Wayne Storr">
+<meta name="verify-v1" content="CC61mZdcm/d0dr98ns87BxP/5NPUvWagxrC2DcHoFdw=">
+<meta http-equiv="content-language" content="en-GB">
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<link href="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/tutorials.css" rel="stylesheet" type="text/css">
+<link href="http://www.electronics-tutorials.ws/utils/eticon.ico" rel="shortcut icon">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="http://www.electronics-tutorials.ws/electromagnetism/hall-effect.html">
+<script src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/gpt.js" type="text/javascript" async=""></script><script async="" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/cbgapi.loaded_0"></script><script gapi_processed="true" type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/plusone.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/stmenu.js"></script><style>.stctb{width:auto;height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stctr{width:auto;height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stctd{height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stcdv{margin:0px;padding:0px;background-color:transparent;background-image:none;}
+.stca{border-style:none;margin:0px;padding:0px;background-color:transparent;background-image:none;}
+</style>
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/8786840/ET_120_Right', [120, 600], 'div-gpt-ad-1354288201286-0').addService(googletag.pubads());
+googletag.defineSlot('/8786840/ET_468_Tutorials', [468, 60], 'div-gpt-ad-1354288201286-1').addService(googletag.pubads());
+googletag.defineSlot('/8786840/ET_728_Bottom', [728, 90], 'div-gpt-ad-1354288201286-2').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+<!-- base href="http://www.electronics-tutorials.ws/electromagnetism/hall-effect.html" -->
+<script src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/google_ads_gpt.js" type="text/javascript" async=""></script></head>
+
+<body onload="replacePhrase()" itemscope="" itemtype="http://schema.org/Webpage">
+<table cellpadding="0" cellspacing="0" bgcolor="#f3f3f3" border="0" width="830px">
+	<tbody><tr><td colspan="3"><a href="http://www.electronics-tutorials.ws/"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/siteheader.jpg" alt="Basic Electronics Tutorials" border="0" height="90px" width="830px"></a></td></tr>
+	<tr><td colspan="3">
+<div id="head">
+<!-- google_ad_section_start -->
+	<script type="text/javascript"><!--
+	google_ad_client = "pub-0015347345197381";
+	/* Large Horizontal */
+	google_ad_slot = "5456501607";
+	google_ad_width = 728;
+	google_ad_height = 15;
+	//-->
+	</script>
+	<script type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/show_ads.js"></script></div></td>
+</tr>
+<tr><td bgcolor="#f3f3f3" valign="top">
+<!-- Left Box Start -->
+	<table cellpadding="2" cellspacing="0" bgcolor="#f3f3f3" border="0" width="126px">
+	<tbody><tr><td align="center" valign="top" width="100%">
+		<table cellpadding="0" cellspacing="0" align="center" bgcolor="#f3f3f3" border="0" width="126px">
+		<tbody><tr><td class="leftbox"><script type="text/javascript"><!--
+			google_ad_client = "ca-pub-0015347345197381";
+			/* Links Top_Left */
+			google_ad_slot = "4746793592";
+			google_ad_width = 120;
+			google_ad_height = 90;
+			//-->
+			</script>
+			<script type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/show_ads.js"></script>
+			</td>
+		</tr>
+			<tr><td class="leftbox">
+            <script type="text/javascript">
+<!--
+stm_bm(["menu3b81",860,"http://www.electronics-tutorials.ws/utils/","blank.gif",0,"","",0,0,250,200,1000,1,0,0,"http//www.electronics-tutorials.ws/","",0,0,1,2,"default","hand",""],this);
+stm_bp("p0",[1,4,0,0,0,2,7,0,100,"",-2,"",-2,50,0,0,"#999999","transparent","bckgnd_02.gif",3,1,2,"#d3d3d3"]);
+stm_ai("p0i0",[0,"LINKS","","",-1,-1,0,"","_self","","","","",0,0,0,"","",0,0,0,0,1,"#d3d3d3",0,"#d3d3d3",0,"","",3,3,1,1,"#f1f1f1","#ffffff","#5078b4","#5078b4","bold 10pt 'Arial','Verdana'","bold 10pt 'Arial','Verdana'",1,1],120,30);
+stm_ai("p0i1",[6,7,"transparent","bckgnd_03.gif",120,10,0]);
+stm_ai("p0i2",[0,"Home","","",-1,-1,0,"http://www.electronics-tutorials.ws/index.html","_self","","Electronics Tutorials Home Page","icon_09a.gif","icon_08b.gif",7,13,0,"","",0,0,0,0,1,"#FFFFF7",1,"#0099ff",0,"bckgnd_03.gif","",3,3,0,0,"#C8E5EE","#000000","#0080c8","#ffffff","9pt 'Arial','Verdana'","9pt 'Arial','Verdana'",0,0],120,20);
+stm_aix("p0i3","p0i2",[0,"Site Map","","",-1,-1,0,"http://www.electronics-tutorials.ws/sitemap/sitemap.html","_self","","Electronics Tutorials Sitemap"],120,20);
+stm_aix("p0i4","p0i2",[0,"Site Search","","",-1,-1,0,"http://www.electronics-tutorials.ws/sitesearch.html","_self","","Search our Site"],120,20);
+stm_aix("p0i5","p0i2",[0,"Link Partners","","",-1,-1,0,"http://www.electronics-tutorials.ws/links/links.html","_self","","Electronics Tutorials Link Partners"],120,20);
+stm_aix("p0i6","p0i2",[0,"Blogspot","","",-1,-1,0,"http://www.electronics-tutorials.ws/blog/","_self","","Join our Electronics Blog"],120,20);
+stm_aix("p0i7","p0i2",[0,"Bookstore","","",-1,-1,0,"http://www.electronics-tutorials.ws/bookstore/bookstore.html","_self","","Books about Electronics"],120,20);
+stm_aix("p0i8","p0i2",[0,"Contact Us","","",-1,-1,0,"mailto:webmaster@electronics-tutorials.ws","_self","","Send us an Emal"],120,20);
+stm_aix("p0i9","p0i1",[]);
+stm_ep();
+stm_em();
+//-->
+</script><script type="text/javascript" language="javascript1.2" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/stdom.js"></script><script type="text/javascript" language="javascript1.2" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/stinit.js"></script><table id="menu3b810p0" class="stctb" style="border-width: 2px; border-style: solid; border-color: rgb(211, 211, 211); visibility: visible;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0]')" cellpadding="0" cellspacing="0"><tbody><tr class="stctr"><td id="menu3b810p0txt" class="stctd" style="background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_02.gif);background-repeat:repeat;"><table id="menu3b810p0tb" class="stctb" cellpadding="0" cellspacing="0" align="left"><tbody><tr class="stctr"><td class="stctd" valign="middle"><table id="menu3b810p0i0" class="stctb" style="width:120px;height:30px;border-width:1px;border-style:solid;border-color:#f1f1f1;background-color:#d3d3d3;cursor:default;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[0]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[0]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[0]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i0il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i0ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/blank.gif" border="0" height="1" width="7"></td><td id="menu3b810p0i0im" class="stctd" style="color:#5078b4;font:bold 10pt 'Arial','Verdana';text-decoration:underline ;" align="left" nowrap="nowrap" valign="middle">LINKS</td></tr></tbody></table></td></tr><tr class="stctr"><td class="stctd" valign="middle"><table id="menu3b810p0sp1" class="stctb" style="width:100%;height:7px;border-style:none;background-color:transparent;" cellpadding="0" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0sp1im" class="stctd" style="line-height:1pt;text-decoration:none;" align="center" nowrap="nowrap" valign="middle"><img id="menu3b810p0sp1img" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/bckgnd_03.gif" border="0" height="10" width="120"></td></tr></tbody></table></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/index.html" target="_self" onclick="return st_ms[0].ps[0].is[2].disable" id="menu3b810p0i2lnk" class="stca" style="text-decoration:none"><table title="Electronics Tutorials Home Page" id="menu3b810p0i2" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[2]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[2]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[2]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i2il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i2ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i2im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Home</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/sitemap/sitemap.html" target="_self" onclick="return st_ms[0].ps[0].is[3].disable" id="menu3b810p0i3lnk" class="stca" style="text-decoration:none"><table title="Electronics Tutorials Sitemap" id="menu3b810p0i3" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[3]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[3]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[3]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i3il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i3ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i3im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Site&nbsp;Map</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/sitesearch.html" target="_self" onclick="return st_ms[0].ps[0].is[4].disable" id="menu3b810p0i4lnk" class="stca" style="text-decoration:none"><table title="Search our Site" id="menu3b810p0i4" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[4]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[4]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[4]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i4il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i4ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i4im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Site&nbsp;Search</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/links/links.html" target="_self" onclick="return st_ms[0].ps[0].is[5].disable" id="menu3b810p0i5lnk" class="stca" style="text-decoration:none"><table title="Electronics Tutorials Link Partners" id="menu3b810p0i5" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[5]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[5]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[5]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i5il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i5ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i5im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Link&nbsp;Partners</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/blog/" target="_self" onclick="return st_ms[0].ps[0].is[6].disable" id="menu3b810p0i6lnk" class="stca" style="text-decoration:none"><table title="Join our Electronics Blog" id="menu3b810p0i6" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[6]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[6]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[6]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i6il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i6ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i6im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Blogspot</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="http://www.electronics-tutorials.ws/bookstore/bookstore.html" target="_self" onclick="return st_ms[0].ps[0].is[7].disable" id="menu3b810p0i7lnk" class="stca" style="text-decoration:none"><table title="Books about Electronics" id="menu3b810p0i7" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[7]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[7]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[7]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i7il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i7ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i7im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Bookstore</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><a href="mailto:webmaster@electronics-tutorials.ws" target="_self" onclick="return st_ms[0].ps[0].is[8].disable" id="menu3b810p0i8lnk" class="stca" style="text-decoration:none"><table title="Send us an Emal" id="menu3b810p0i8" class="stctb" style="width:120px;height:20px;border-style:none;border-color:#C8E5EE;background-color:transparent;background-image:url(http://www.electronics-tutorials.ws/utils/bckgnd_03.gif);background-repeat:repeat;" onmouseover="stsEnt(event,this,0,'st_ms[0].ps[0].is[8]')" onmouseout="stsEnt(event,this,1,'st_ms[0].ps[0].is[8]')" onclick="stsEnt(event,this,2,'st_ms[0].ps[0].is[8]')" cellpadding="2" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0i8il" class="stctd" style="font-size:1pt;width:7px;"><img id="menu3b810p0i8ico" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/icon_09a.gif" border="0" height="13" width="7"></td><td id="menu3b810p0i8im" class="stctd" style="color:#0080c8;font:9pt 'Arial','Verdana';text-decoration:none;" align="left" nowrap="nowrap" valign="middle">Contact&nbsp;Us</td></tr></tbody></table></a></td></tr><tr class="stctr"><td class="stctd" valign="middle"><table id="menu3b810p0sp9" class="stctb" style="width:100%;height:7px;border-style:none;background-color:transparent;" cellpadding="0" cellspacing="0" align="center"><tbody><tr><td id="menu3b810p0sp9im" class="stctd" style="line-height:1pt;text-decoration:none;" align="center" nowrap="nowrap" valign="middle"><img id="menu3b810p0sp9img" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/bckgnd_03.gif" border="0" height="10" width="120"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><script type="text/javascript" language="javascript1.2">stsPop(st_ms[0].ps[0]);stshP(st_ms[0].ps[0]);st_ms[0].ps[0].lock=1</script>
+			</td></tr>
+			</tbody></table>			
+			</td>
+		</tr>
+<!-- Left Ad 125 -->
+<tr><td class="leftbox"><div class="eeweb"><a rel="nofollow" href="http://www.pcbweb.com/register"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/PCBWeb-125x125.jpg" alt="PCB WEb" border="0" height="125px" width="125px"></a></div></td></tr>
+<tr><td class="leftbox">
+<div class="eeweb">
+<ul>
+<li class="eeweb-fil"><a rel="nofollow" href="http://www.eeweb.com/toolbox">Calculators&nbsp;&amp;&nbsp;Tools</a></li>
+<li><a rel="nofollow" href="http://www.pcbweb.com/">PCB Software</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/internal-pcb-trace-width">Trace Width</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/internal-pcb-trace-max-current">Trace Current</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/trace-resistance">Trace Resistance</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/microstrip-impedance">PCB Impedance</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/4-band-resistor-calculator">4 Band Resistor</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/5-band-resistor-calculator">5 Band Resistor</a></li>
+<li><a rel="nofollow" href="http://www.partsim.com/">Circuit Simulator</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/resistor-tables">Resistor Table</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/wire-inductance">Inductance Calc</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/coil-inductance/">Coil Inductance</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/parallel-wire-inductance">Parallel Wires</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/l-match">Impedance Match</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/rf-unit-converter">RF Unit Converter</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/coax">Coax Impedance</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/twisted-pair">Twisted Pair</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/microstrip-crosstalk/">Crosstalk Calc</a></li>
+<li><a rel="nofollow" href="http://www.eeweb.com/toolbox/calculator">Scientific Calc</a></li>
+</ul></div></td></tr>
+<!-- w3 Validator -->
+		<tr>
+		<td class="leftbox"><div><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/valid-xhtml10-blue.gif" alt="Valid XHTML Web Page" border="0" height="31" width="88"></div></td>
+  		</tr>
+  	</tbody></table>
+  	</td>
+	<td class="smtxt" align="left" bgcolor="#f3f3f3" valign="top" width="575px">
+<!-- Center Text Box -->
+			<table cellpadding="2" cellspacing="0" align="center" bgcolor="#fafafa" border="0" width="575px">
+			<tbody><tr>
+				<td align="center" bgcolor="#f3f3f3" nowrap="nowrap" valign="bottom" width="100%">
+					<form id="searchbox_012168463560417862183:fwgboba9k4a" action="http://www.electronics-tutorials.ws/sitesearch.html">
+						<label>Search:</label>
+    					<input name="cx" value="012168463560417862183:fwgboba9k4a" type="hidden">
+    					<input name="cof" value="FORID:11" type="hidden">
+    					<input style="background: url(&quot;http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" name="q" size="48" type="text">
+    					<input name="sa" value="Search Site" class="btn" type="submit">
+  					<input value="www.electronics-tutorials.ws/electromagnetism/hall-effect.html" name="siteurl" type="hidden"><input name="ref" type="hidden"><input name="ss" type="hidden"></form>
+  					<script type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/brand"></script>
+				</td>
+			</tr>
+<tr><td align="center" bgcolor="#009bd4">	
+	<table cellpadding="5" cellspacing="0" align="center" border="0" width="575px">
+	<tbody><tr><td class="title" bgcolor="#006ed8">Electronics Tutorial about Hall Effect Magnetic Sensor</td></tr>
+	<tr><td class="utxt" bgcolor="#fafafa">
+		<!-- form box -->
+		<table bgcolor="#fafafa" border="0" width="100%">
+		<tbody><tr><td align="left" valign="top" width="60%">&nbsp;<h1 itemprop="name">Hall Effect Sensor</h1></td>
+		<td class="mtxt" align="center" valign="bottom" width="40%">Navigation</td></tr>
+		<tr><td colspan="2">
+			<table cellpadding="2" cellspacing="0" border="0" width="100%">
+			<tbody><tr><td align="left" valign="bottom" width="60%"><span class="pagetxt">Tutorial: 6 of 6</span></td>
+			<td align="center" valign="middle" width="40%">
+			<form name="page" action=" ">
+			<select name="menu" style="width:180px;" size="1" class="formtxt">
+			<option selected="selected">--- Select a Tutorial Page ---</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/magnetism.html">Page 1 - Magnetism</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/electromagnetism.html">Page 2 - Electromagnetism</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/electromagnets.html">Page 3 - Electromagnets</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/magnetic-hysteresis.html">Page 4 - Magnetic Hysteresis</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/electromagnetic-induction.html">Page 5 - Electromagnetic Induction</option>
+			<option value="http://www.electronics-tutorials.ws/electromagnetism/hall-effect.html">Page 6 - Hall Effect Sensor</option>
+			</select>
+			<p> 
+			<input onclick="location=document.page.menu.options[document.page.menu.selectedIndex].value;" value=" Go " class="btn" align="left" type="button">
+			<input name="Reset" value="Reset" class="btn" align="right" type="reset">
+			</p>
+			</form>
+			</td></tr>
+			</tbody></table>
+		</td></tr>
+		</tbody></table>
+<!-- Main Text Table -->
+<h2 itemprop="description" class="htxt">The Hall Effect Device</h2>
+<p align="justify">We could not end this section on 
+<em><a href="http://www.electronics-tutorials.ws/electromagnetism/magnetism.html">Magnetism</a></em> without a mention about 
+magnetic sensors and especially the <strong>Hall Effect Sensor</strong>. Magnetic sensors convert magnetic or magnetically 
+encoded information into electrical signals for processing by electronic circuits, and in the 
+<em><a href="http://www.electronics-tutorials.ws/io/io_1.html">Sensors and Transducers</a></em> tutorials we looked at
+inductive proximity sensors and the LDVT as well as solenoid and relay output actuators.</p>
+<p align="justify">Magnetic sensors are solid state devices that are becoming more and more popular because they can be used
+in many different types of application such as sensing position, velocity or directional movement. They are also a popular
+choice of sensor for the electronics designer due to their non-contact wear free operation, their low maintenance, robust
+design and as sealed hall effect devices are immune to vibration, dust and water.</p>
+<p align="justify">One of the main uses of magnetic sensors is in automotive systems for the sensing of position, distance
+and speed. For example, the angular position of the crank shaft for the firing angle of the spark plugs, the position of the
+car seats and seat belts for air-bag control or wheel speed detection for the anti-lock braking system, (ABS). Magnetic
+sensors are designed to respond to a wide range of positive and negative magnetic fields in a variety of different
+applications and one type of magnet sensor whose output signal is a function of magnetic field density around it is called
+the <strong>Hall Effect Sensor</strong>.</p>
+<p align="justify"><strong>Hall Effect Sensors</strong> are devices which are activated by an external magnetic field. We
+know that a magnetic field has two important characteristics flux density, (<span class="ntxt">B</span>) and polarity
+(North and South Poles). The output signal from a Hall effect sensor is the function of magnetic field density around the
+device. When the magnetic flux density around the sensor exceeds a certain preset threshold, the sensor detects it and
+generates an output voltage called the <strong>Hall Voltage, V<sub>H</sub></strong>. Consider the diagram below.</p>
+<h3 class="h3txt">Hall Effect Sensor</h3>
+<p align="center"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag26.gif" alt="Hall Effect Sensor" border="0" height="381px" width="451px"></p>
+<p align="justify"><br><strong>Hall Effect Sensors</strong> consist basically of a thin piece of rectangular p-type
+semiconductor material such as gallium arsenide (GaAs), indium antimonide (InSb) or indium arsenide (InAs) passing a
+continuous current through itself. When the device is placed within a magnetic field, the magnetic flux lines exert a
+force on the semiconductor material which deflects the charge carriers, electrons and holes, to either side of the
+semiconductor slab. This movement of charge carriers is a result of the magnetic force they experience passing through
+the semiconductor material.</p>
+<p align="justify">As these electrons and holes move side wards a potential difference is produced between the two sides of
+the semiconductor material by the build-up of these charge carriers. Then the movement of electrons through the semiconductor
+material is affected by the presence of an external magnetic field which is at right angles to it and this effect is greater
+in a flat rectangular shaped material.</p>
+<p align="justify">The effect of generating a measurable voltage by using a magnetic field is called the
+<strong>Hall Effect</strong> after Edwin Hall who discovered it back in the 1870's with the basic physical principle
+underlying the Hall effect being Lorentz force. To generate a potential difference across the device the magnetic flux
+lines must be perpendicular, (90<sup>o</sup>) to the flow of current and be of the correct polarity, generally a south pole.</p>
+<p align="justify">The Hall effect provides information regarding the type of magnetic pole and magnitude of the magnetic
+field. For example, a south pole would cause the device to produce a voltage output while a north pole would have no effect.
+Generally, Hall Effect sensors and switches are designed to be in the "OFF", (open circuit condition) when there is no
+magnetic field present. They only turn "ON", (closed circuit condition) when subjected to a magnetic field of sufficient
+strength and polarity.</p>
+<h2 class="htxt">Hall Effect Magnetic Sensor</h2>
+<p align="justify">The output voltage, called the Hall voltage, (<span class="ntxt">V<sub>H</sub></span>) of the basic
+Hall Element is directly proportional to the strength of the magnetic field passing through the semiconductor material
+(output&nbsp;<font size="4">&#8733;</font>&nbsp;H). This output voltage can be quite small, only a few microvolts even
+when subjected to strong magnetic fields so most commercially available Hall effect devices are manufactured with built-in
+DC amplifiers, logic switching circuits and voltage regulators to improve the sensors sensitivity, hysteresis and output
+voltage. This also allows the Hall effect sensor to operate over a wider range of power supplies and magnetic field conditions.</p>
+<h3 class="h3txt">Hall Effect Sensor</h3>
+<p align="center"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag27.gif" alt="Hall Effect Sensor" border="0" height="263px" width="492px"></p>
+<p align="justify"><strong>Hall Effect Sensors</strong> are available with either linear or digital outputs. The output
+signal for linear (analogue) sensors is taken directly from the output of the operational amplifier with the output voltage
+being directly proportional to the magnetic field passing through the Hall sensor. This output Hall voltage is given as:</p>
+<div class="equation" style="width:200px;"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag28.gif" alt="Hall Voltage" border="0" height="62px" width="176px"></div>
+<p>&nbsp;</p>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#fafafa" border="0" width="530px">
+<tbody><tr><td align="left" valign="top" width="300px">
+<ul>
+<li>Where:</li>
+<li><span class="ntxt">V<sub>H</sub></span> is the Hall Voltage in volts</li>
+<li><span class="ntxt">R<sub>H</sub></span> is the Hall Effect co-efficient</li>
+<li><span class="ntxt">I</span> is the current flow through the sensor in amps</li>
+<li><span class="ntxt">t</span> is the thickness of the sensor in mm</li>
+<li><span class="ntxt">B</span> is the Magnetic Flux density in Teslas</li>
+</ul>
+</td>
+<td align="center" width="230px"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag29.gif" alt="Linear Output Voltage" border="0" height="143px" width="218px"></td></tr>
+</tbody></table>
+<p align="justify">Linear or analogue sensors give a continuous voltage output that increases with a strong magnetic field 
+and decreases with a weak magnetic field. In linear output Hall effect sensors, as the strength of the magnetic field
+increases the output signal from the amplifier will also increase until it begins to saturate by the limits imposed on it
+by the power supply. Any additional increase in the magnetic field will have no effect on the output but drive it more into
+saturation.</p>
+<p align="justify">Digital output sensors on the other hand have a Schmitt-trigger with built in hysteresis connected to
+the op-amp. When the magnetic flux passing through the Hall sensor exceeds a preset value the output from the device switches
+quickly between its "OFF" condition to an "ON" condition without any type of contact bounce. This built-in hysteresis eliminates
+any oscillation of the output signal as the sensor moves in and out of the magnetic field. Then digital output sensors have
+just two states, "ON" and "OFF".</p>
+<p align="justify">There are two basic types of digital Hall effect sensor, <b>Bipolar</b> and <b>Unipolar</b>. Bipolar
+sensors require a positive magnetic field (south pole) to operate them and a negative field (north pole) to release them
+while unipolar sensors require only a single magnetic south pole to both operate and release them as they move in and out
+of the magnetic field.</p>
+<p align="justify">Most Hall effect devices can not directly switch large loads as their output drive capabilities are very
+small around 10 to 20mA. For large current loads an open-collector (current sinking)
+<em><a href="http://www.electronics-tutorials.ws/transistor/tran_2.html">NPN Transistor</a></em> is added to the output.
+This transistor operates in its saturated region as a NPN sink switch which shorts the output terminal to ground whenever
+the applied flux density is higher than that of the "ON" preset point. This output transistor can be either an open emitter,
+open collector or both providing a push-pull output configuration that can sink enough current to directly drive many loads,
+including relays, motors, LEDs, and lamps.</p>
+<h2 class="htxt">Hall Effect Applications</h2>
+<p align="justify">Hall effect sensors are activated by a magnetic field and in many applications the device can be operated
+by a single permanent magnet attached to a moving shaft or device. There are many different types of magnet movements, such
+as "Head-on", "Sideways", "Push-pull" or "Push-push" etc sensing movements. Which every type of configuration is used, to
+ensure maximum sensitivity the magnetic lines of flux must always be perpendicular to the sensing area of the device and
+must be of the correct polarity.</p>
+<p align="justify">Also to ensure linearity, high field strength magnets are required that produce a large
+change in field strength for the required movement. There are several possible paths of motion for detecting a magnetic field,
+and below are two of the more common sensing configurations using a single magnet. <b>Head-on Detection</b> and <b>Sideways Detection</b>.</p>
+<h3 class="h3txt">Head-on Detection</h3>
+<div style="float:left; width:300px; align:center; padding:0px 20px 0px 10px;">
+<img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag30.gif" alt="Head-on Hall Effect Sensing" border="0" height="174px" width="251px"></div>
+<p align="justify">As its name implies, head-on detection requires that the magnetic field is perpendicular to the sensing
+device and that for detection, it approaches the sensor straight on towards the active face. A sort of "head-on" approach.</p>
+<p align="justify">This head-on approach generates an output signal, <span class="ntxt">V<sub>H</sub></span> which in the
+linear devices represents the strength of the magnetic field, the magnetic flux density, as a function of distance away from
+the sensor. The nearer and therefore the stronger the magnetic field, the greater the output voltage and vice versa.</p>
+<p align="justify">Linear devices can also differentiate between positive and negative magnetic fields. Non-linear devices
+can be made to trigger the output "ON" at a preset air gap distance away from the magnet for indicating positional detection.</p>
+<h3 class="h3txt">Sideways Detection</h3>
+<div style="float:right; width:320px; align:center; padding:0px 0px 0px 20px;">
+<img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag31.gif" alt="Sideways Hall Effect Sensing" border="0" height="186px" width="285px"></div>
+<p align="justify">The second sensing configuration is sideways detection. This requires moving the magnet across the
+face of the Hall element in a sideways motion.</p>
+<p align="justify">Sideways or slide-by detection is useful for detecting the presence of a magnetic field as it moves across
+the face of the Hall element within a fixed air gap distance for example, counting rotational magnets or the speed of rotation.</p>
+<p align="justify">Depending upon the position of the magnetic field as it passes by the zero field centre line of the
+sensor, a linear output voltage representing both a positive and a negative output can be produced. This allows for
+directional movement detection which can be vertical as well as horizontal.</p>
+<p align="justify">There are many different applications for <strong>Hall Effect Sensors</strong> especially as proximity
+sensors. They can be used instead of optical and light sensors were the environmental conditions consist of water, vibration,
+dirt or oil such as in automotive applications. Hall effect devices can also be used for current sensing.</p>
+<p align="justify">We know from the previous tutorials that when a current passes through a conductor, a circular
+electromagnetic field is produced around it. By placing the Hall sensor next to the conductor, electrical currents from
+a few milliamps into thousands of amperes can be measured from the generated magnetic field without the need of large or
+expensive transformers and coils.</p>
+<p align="justify">As well as detecting the presence or absence of magnets and magnetic fields, Hall effect sensors can also
+be used to detect ferromagnetic materials such as iron and steel by placing a small permanent "biasing" magnet behind the
+active area of the device. The sensor now sits in a permanent and static magnetic field, and any change or disturbance to
+this magnetic field by the introduction of a ferrous material will be detected with sensitivities as low as mV/G possible.</p>
+<p align="justify">There are many different ways to interface Hall effect sensors to electrical and electronic circuits
+depending upon the type of device, whether digital or linear. One very simple and easy to construct example is using a
+<em><a href="http://www.electronics-tutorials.ws/diode/diode_8.html">Light Emitting Diode</a></em> as shown below.</p>
+<h3 class="h3txt">Positional Detector</h3>
+<p align="center"><img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/mag32.gif" alt="Positional Indicator" border="0" height="188px" width="278px"></p>
+<p align="justify"><br>This head-on positional detector will be "OFF" when there is no magnetic field present, (0 gauss).
+When the permanent magnets south pole (positive gauss) is moved perpendicular towards the active area of the Hall effect
+sensor the device turns "ON" and lights the LED. Once switched "ON" the Hall effect sensor stays "ON".</p>
+<p align="justify">To turn the device and therefore the LED "OFF" the magnetic field must be reduced to below the release
+point for unipolar sensors or exposed to a magnetic north pole (negative gauss) for bipolar sensors. The LED can be replaced
+with a larger power transistor if the output of the Hall effect sensor is required to switch larger current loads.</p>
+<div class="bottomspace">&nbsp;</div>
+<div class="ad468center"><!-- ET_468_Tutorials -->
+<div id="div-gpt-ad-1354288201286-1" style="width:468px; height:60px;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354288201286-1'); });
+</script>
+<iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom;" marginheight="0" marginwidth="0" name="google_ads_iframe_/8786840/ET_468_Tutorials_0" id="google_ads_iframe_/8786840/ET_468_Tutorials_0" frameborder="0" height="60" scrolling="no" width="468"></iframe><iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom; visibility: hidden; display: none;" marginheight="0" marginwidth="0" name="google_ads_iframe_/8786840/ET_468_Tutorials_0__hidden__" id="google_ads_iframe_/8786840/ET_468_Tutorials_0__hidden__" frameborder="0" height="0" scrolling="no" width="0"></iframe></div></div>
+</td></tr>
+<!-- End Text Table -->
+	<tr>
+	<td class="sectpages">
+<table cellpadding="2" cellspacing="2" align="right" border="0" width="210px">
+<tbody><tr>
+<td align="right" width="120"><span class="utxt">Goto Page:&nbsp;</span></td>
+<td class="OtherPage" align="center" width="15">
+<a class="HyperlinkStyle" title="Page 1 - Magnetism" href="http://www.electronics-tutorials.ws/electromagnetism/magnetism.html">1</a></td>
+<td class="OtherPage" align="center" width="15">
+<a class="HyperlinkStyle" title="Page 2 - Electromagnetism" href="http://www.electronics-tutorials.ws/electromagnetism/electromagnetism.html">2</a></td>
+<td class="OtherPage" align="center" width="15">
+<a class="HyperlinkStyle" title="Page 3 - Electromagnets" href="http://www.electronics-tutorials.ws/electromagnetism/electromagnets.html">3</a></td>
+<td class="OtherPage" align="center" width="15">
+<a class="HyperlinkStyle" title="Page 4 - Magnetic Hysteresis" href="http://www.electronics-tutorials.ws/electromagnetism/magnetic-hysteresis.html">4</a></td>
+<td class="OtherPage" align="center" width="15">
+<a class="HyperlinkStyle" title="Page 5 - Electromagnetic Induction" href="http://www.electronics-tutorials.ws/electromagnetism/electromagnetic-induction.html">5</a></td>
+<td class="CurrentPage" align="center" width="15">6</td>
+</tr>
+</tbody></table>
+</td></tr>
+				</tbody></table>
+				</td></tr>
+				</tbody></table>	
+		</td>			
+<!-- Rightside Column -->
+	<td bgcolor="#f3f3f3" valign="top" width="126px">
+<!-- Social Bookmarks -->
+<div id="sociallist"><ul>
+<li><div class="bmark">Do you like our Site?<br>Help us to Share It</div></li>
+<li><div class="gbutton"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 106px; height: 24px;"><iframe title="+1" data-gapiattached="true" allowtransparency="true" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/fastbutton.html" name="I0_1375480927313" id="I0_1375480927313" vspace="0" tabindex="0" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div></div></li>
+<li><div class="fbbutton">
+<iframe allowtransparency="true" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/like.html" style="border:none; overflow:hidden; width:90px; height:20px;" frameborder="0" scrolling="no"></iframe>
+</div></li>
+<li><center><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4dabe1c24a1ae8c8">
+			<img src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/sm-share-en.gif" alt="Basic Electronics Tutorials" style="border:0;" height="16" width="83"></a></center>
+			<script type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/sh134.html" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px none; left: 0px; top: 0px;" title="AddThis utility frame" id="_atssh10"></iframe></div><script src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/core089.js" type="text/javascript"></script></li>
+<li><div class="ambook120right">
+<iframe class="aayuxjjxzixjanfbjvbv" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/cm.html" style="width:120px;height:240px;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+</div></li>
+<li><div class="ad120right"><!-- ET_120_Right -->
+<div id="div-gpt-ad-1354288201286-0" style="width:120px; height:600px;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354288201286-0'); });
+</script>
+<iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom;" marginheight="0" marginwidth="0" name="google_ads_iframe_/8786840/ET_120_Right_0" id="google_ads_iframe_/8786840/ET_120_Right_0" frameborder="0" height="600" scrolling="no" width="120"></iframe></div></div></li>
+</ul></div></td></tr></tbody></table>
+<table cellpadding="0" cellspacing="0" bgcolor="#f3f3f3" border="0" width="830px">
+<tbody><tr><td><div class="ad728bottom"><!-- ET_728_Bottom -->
+<div id="div-gpt-ad-1354288201286-2" style="width:728px; height:90px;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354288201286-2'); });
+</script>
+<iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom;" marginheight="0" marginwidth="0" name="google_ads_iframe_/8786840/ET_728_Bottom_0" id="google_ads_iframe_/8786840/ET_728_Bottom_0" frameborder="0" height="90" scrolling="no" width="728"></iframe></div></div></td></tr>
+<!-- google_ad_section_end -->
+<!-- Bottom Info Table -->
+<tr><td align="center" width="830px"><hr class="rule"></td></tr>
+<tr><td class="copytxt" align="center">Basic Electronics Tutorials by Wayne Storr.&nbsp;&nbsp;Last updated:&nbsp;
+	<span class="replace">July 2013</span>
+	<script type="text/javascript" src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/date.js">document.write(replacePhrase());</script>,
+	<br>Copyright&nbsp;©&nbsp;1999&nbsp;&#8722;&nbsp;2013,&nbsp;<a class="nav" href="http://www.electronics-tutorials.ws/">Electronics-Tutorials.ws,</a>&nbsp;All Right Reserved.
+	</td></tr>
+<tr><td align="center">|
+	<a rel="nofollow" class="nav" href="http://www.electronics-tutorials.ws/privacypolicy.html">Privacy Policy</a>&nbsp;|
+	<a rel="nofollow" class="nav" href="http://www.electronics-tutorials.ws/terms.html">Terms of Use</a>&nbsp;|
+	<a class="nav" href="http://www.electronics-tutorials.ws/sitemap/sitemap.html">Site Map</a>&nbsp;|
+	<a rel="nofollow" class="nav" href="mailto:webmaster@electronics-tutorials.ws?subject=User%20Question">Contact Us</a>&nbsp;|
+	<a class="nav" href="http://www.electronics-tutorials.ws/">Basic Electronics Tutorials</a>&nbsp;|
+	</td></tr>
+</tbody></table>
+<!-- Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Basic%20Hall%20Effect%20Sensor%20IC%20-%20How%20it%20Works_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2394600-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body></html>

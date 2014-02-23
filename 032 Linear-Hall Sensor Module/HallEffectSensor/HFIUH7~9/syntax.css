@@ -1,0 +1,42 @@
+.syntaxHighlighter {
+	padding: 1px;
+	/*background-color: #FAFAFA;*/
+	/*margin: 5px 0 5px 75px;*/
+	min-width: 400px;
+	max-width: 100%;
+	/*border: 1px solid #bbbbbb;*/
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	color: #333555;
+	overflow: auto;
+	display: block;
+}
+
+.expand {
+	max-height: 200px;
+}
+
+.syntaxHighlighter a {
+	color: #009933;
+	text-decoration: underline;
+}
+
+.kw1 {
+	color: #b1b100;
+}
+
+.li1 {
+	width: 70%;
+	padding: 7px;
+}
+
+.de1 {
+	padding-left: 3px;
+}
+
+.syntaxHighlighter pre{
+	padding: 5px;
+}

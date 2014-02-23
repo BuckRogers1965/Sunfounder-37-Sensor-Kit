@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" dir="ltr" id="vbulletin_html" lang="en"><head> <link rel="canonical" href="http://www.edaboard.com/thread177954.html"> <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> <meta id="e_vb_meta_bburl" name="vb_meta_bburl" content="http://www.edaboard.com"> <meta name="generator" content="vBulletin 4.2.1"> <meta http-equiv="X-UA-Compatible" content="IE=9"> <link rel="Shortcut Icon" href="http://www.edaboard.com/favicon.ico" type="image/x-icon"> <meta property="fb:app_id" content="120141238037730"> <meta property="og:site_name" content="Forum for Electronics"> <meta property="og:description" content="Helllo, I am trying to design a Clapp oscillator and a buffer amp using an MPF102 field effect transistor. The data sheets I am able to find on the"> <meta property="og:url" content="http://www.edaboard.com/thread177954.html"> <meta property="og:type" content="article"> <script src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/yuiloader-dom-event.js"></script> <script type="text/javascript"> <!--
+	if (typeof YAHOO === 'undefined') // Load ALL YUI Local
+	{
+		document.write('<script type="text/javascript" src="clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=421"><\/script>');
+		document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=421"><\/script>');
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = false;
+	}
+	else	// Load Rest of YUI remotely (where possible)
+	{
+		var yuipath = 'http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build';
+		var yuicombopath = '';
+		var remoteyui = true;
+		if (!yuicombopath)
+		{
+			document.write('<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js?v=421"><\/script>');
+		}
+	}
+	var SESSIONURL = "s=9e051e93d3ca5a299c91ede3e4e67aa2&";
+	var SECURITYTOKEN = "guest";
+	var IMGDIR_MISC = "images/misc";
+	var IMGDIR_BUTTON = "images/buttons";
+	var vb_disable_ajax = parseInt("0", 10);
+	var SIMPLEVERSION = "421";
+	var BBURL = "http://www.edaboard.com";
+	var LOGGEDIN = 0 > 0 ? true : false;
+	var THIS_SCRIPT = "showthread";
+	var RELPATH = "showthread.php?t=177954";
+	var PATHS = {
+		forum : "",
+		cms   : "",
+		blog  : ""
+	};
+	var AJAXBASEURL = "http://www.edaboard.com/";
+// --> </script><script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/connection-min.js"></script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/vbulletin-core.js"></script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/syntax.js"></script> <link rel="stylesheet" type="text/css" href="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/syntax.css"><script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/vlatex.js"></script> <script type="text/javascript"> <!--
+  var vlatex_popup_caption = 'Formula source code:';
+  var vlatex_popup_close = 'Close';
+  --> </script> <link rel="alternate" type="application/rss+xml" title="Forum for Electronics RSS Feed" href="http://www.edaboard.com/external.php?type=RSS2"> <link rel="alternate" type="application/rss+xml" title="Forum for Electronics - Analog Circuit Design - RSS Feed" href="http://www.edaboard.com/external.php?type=RSS2&amp;forumids=38"> <link rel="stylesheet" type="text/css" href="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/main-rollup.css"> <!--[if lt IE 8]> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/popupmenu-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/vbulletin-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/vbulletin-chrome-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/vbulletin-formcontrols-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/editor-ie.css?d=1371325788" /> <![endif]--> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/helpfulanswers.js"></script> <meta name="keywords" content="How,determine,quiescent,current,MPF102,FET,mpf102, drain, data, current, batter, sheet, approach, shack, distance, shipping, order, type, good, point, radio, part, work, supply, electronics, nearest, effect, field, transistor, sheets, find, helllo, question, design, clapp, buffer, oscillator, internet, voltage, gate, spec, determine, specs, info, curves, charactoristic, quiescent"> <meta name="description" content="Helllo, I am trying to design a Clapp oscillator and a buffer amp using an MPF102 field effect transistor. The data sheets I am able to find on the"> <title> How to determine a quiescent current of MPF102 FET ?</title> <link rel="canonical" href="http://www.edaboard.com/thread177954.html"> <link rel="stylesheet" type="text/css" href="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/showthread-rollup.css"> <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/toolsmenu-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/postlist-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/showthread-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/postbit-ie.css?d=1371325788" /> <link rel="stylesheet" type="text/css" href="clientscript/vbulletin_css/style00006l/poll-ie.css?d=1371325788" /><![endif]--> <link rel="stylesheet" type="text/css" href="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/additional.css"> <link rel="stylesheet" type="text/css" href="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/pod_vlatex.css"> 
+<script type="text/javascript"><!--
+window.google_analytics_uacct = 'UA-6450648-1'; var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-6450648-1'], ['_setVar', 'usergroup-1-Unregistered / Not Logged In'], ['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+//--></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+function vbseo_cache_check()
+{
+if(document.cookie.indexOf('vbseo_loggedin=yes')>0 && 
+document.cookie.indexOf('vbseo_redirect=yes')<0)
+{
+document.cookie = 'vbseo_redirect=yes; path=/';
+document.location.reload(true);
+}
+}
+setTimeout('vbseo_cache_check()', 5); 
+
+//]]>
+</script>
+<script src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/all.js" async="" id="facebook-jssdk"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_reset > div{overflow:hidden}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;left:-10000px;overflow:visible;position:absolute;top:-10000px;width:100%
+}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+.fbpluginrecommendationsbarleft{left:10px}
+.fbpluginrecommendationsbarright{right:10px}</style></head> <body> <div class="above_body">  <div id="header" class="floatcontainer doc_header"> <div><a name="top" href="http://www.edaboard.com/forum.php" class="logo-image"><img title="Forum for Electronics - Powered by vBulletin" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/vbulletin4_logo_black.png" alt="Forum for Electronics - Powered by vBulletin"></a></div> <div id="toplinks" class="toplinks"> <ul class="nouser"> <li><a rel="nofollow" style="color: white;" href="http://www.edaboard.com/register.php?do=requestemail">Resend activation?</a> </li> <li><a rel="nofollow" style="color: white;" href="http://www.edaboard.com/login.php?do=lostpw">Lost password?</a></li> <li><a style="color: white;" href="http://www.edaboard.com/register.php" rel="nofollow">Register</a></li> <li> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/vbulletin_md5.js"></script> <form id="navbar_loginform" action="/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)"> <fieldset id="logindetails" class="logindetails"> <div> <div> <input class="textbox default-value" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" type="text"> <input style="display: none;" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10" type="password"> <input class="textbox default-value" tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display: inline;" type="text"> <input class="loginbutton" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" type="submit"> </div> </div> </fieldset> <div id="remember" class="remember remember_links"> <label for="cb_cookieuser_navbar"><input name="cookieuser" value="1" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" tabindex="103" type="checkbox"> Remember Me?</label> </div> <input name="s" value="9e051e93d3ca5a299c91ede3e4e67aa2" type="hidden"> <input name="securitytoken" value="guest" type="hidden"> <input name="do" value="login" type="hidden"> <input name="vb_login_md5password" type="hidden"> <input name="vb_login_md5password_utf" type="hidden"> </form> <script type="text/javascript">
+			YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+			YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+			vB_XHTML_Ready.subscribe(function()
+			{
+			//
+				YAHOO.util.Event.on('navbar_username', "focus", navbar_username_focus);
+				YAHOO.util.Event.on('navbar_username', "blur", navbar_username_blur);
+				YAHOO.util.Event.on('navbar_password_hint', "focus", navbar_password_hint);
+				YAHOO.util.Event.on('navbar_password', "blur", navbar_password);
+			});
+			
+			function navbar_username_focus(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == 'User Name')
+				{
+				//
+					textbox.value='';
+					textbox.style.color='#000000';
+				}
+			}
+
+			function navbar_username_blur(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == '')
+				{
+				//
+					textbox.value='User Name';
+					textbox.style.color='#777777';
+				}
+			}
+			
+			function navbar_password_hint(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "none");
+				YAHOO.util.Dom.setStyle('navbar_password', "display", "inline");
+				YAHOO.util.Dom.get('navbar_password').focus();
+			}
+
+			function navbar_password(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				if (textbox.value == '')
+				{
+					YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+					YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+				}
+			}
+			</script> </li> <li id="fb_headerbox"> <a id="fb_loginbtn" href="#"><img title="The Facebook Platform" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/facebook_login.gif" alt="The Facebook Platform"></a> </li> </ul> </div> <div class="ad_global_header"> </div> <hr> </div> <div id="navbar" class="navbar"> <ul id="navtabs" class="navtabs floatcontainer"> <li class="selected" id="vbtab_forum"> <a class="navtab" href="http://www.edaboard.com/forum.php">Forum</a> </li> <ul class="floatcontainer"> <li id="vbflink_bbmenu"><a rel="nofollow" href="http://www.edaboard.com/search.php?do=getnew&amp;contenttype=vBForum_Post?s=9e051e93d3ca5a299c91ede3e4e67aa2">New Posts</a></li> <li id="vbflink_newposts"><a rel="nofollow" href="http://www.edaboard.com/search.php?do=process&amp;search_type=1&amp;contenttype=vBForum_Post&amp;replyless=1&amp;replylimit=0">Unanswered Posts</a></li> <li id="vbflink_faq"><a href="http://www.edaboard.com/faq.php">FAQ</a></li> <li class="popupmenu" id="vbmenu_actions"> <a id="yui-gen1" href="javascript://" class="popupctrl">Forum Actions</a> <ul id="yui-gen0" class="popupbody"> <li id="vbalink_mfr"><a rel="nofollow" href="http://www.edaboard.com/forumdisplay.php?do=markread&amp;markreadhash=guest">Mark Forums Read</a></li> </ul> </li> <li class="popupmenu" id="vbmenu_community"> <a id="yui-gen3" href="javascript://" class="popupctrl">Community</a> <ul id="yui-gen2" class="popupbody"> <li id="vbclink_groups"><a href="http://www.edaboard.com/groups.html">Groups</a></li> <li id="rpl_link_cm"><a rel="nofollow" href="http://www.edaboard.com/misc.php?do=reported">Reported Items</a></li> <li id="link_odg4_458"><a href="http://www.edaboard.com/calendar.php">Calendar</a></li> <li id="link_odg4_695"><a href="http://www.edaboard.com/linkus.php">Link to Us</a></li> </ul> </li> <li class="popupmenu" id="vbmenu_qlinks"> <a id="yui-gen5" href="javascript://" class="popupctrl">Quick Links</a> <ul id="yui-gen4" class="popupbody"> <li id="vbqlink_posts"><a href="http://www.edaboard.com/search.php?do=getdaily&amp;contenttype=vBForum_Post">Today's Posts</a></li> <li id="vbqlink_leaders"><a href="http://www.edaboard.com/showgroups.php">View Site Leaders</a></li> </ul> </li> <li id="vsafrules_link"><a href="http://www.edaboard.com/misc.php?=vsarules">Forum Rules</a></li> </ul> <li id="tab_odg4_342"> <a class="navtab" href="http://www.edaboard.com/activity.php">Activity Stream</a> </li> <li id="vbtab_whatsnew"> <a class="navtab" href="http://www.edaboard.com/search.php">Search</a> </li> <li id="tab_odg4_347"> <a class="navtab" href="http://www.edaboard.com/faq.php">Help</a> </li> <li id="tab_odg4_862"> <a rel="nofollow" class="navtab" href="http://www.edaboard.com/misc.php?do=vsarules">Rules</a> </li> <li id="tab_odg4_591"> <a class="navtab" href="http://www.edaboard.com/groups.html">Groups</a> </li> <li id="tab_odg4_513"> <a class="navtab" href="http://www.edaboard.com/albums.html">Albums</a> </li> <li id="vbtab_blog"> <a class="navtab" href="http://www.edaboard.com/blogs.html">Blogs</a> </li> <li id="tab_odg4_599"> <a rel="nofollow" class="navtab" href="http://www.edaboard.com/search.php?do=getnew&amp;contenttype=vBForum_Post">What's New?</a> </li> </ul> <div id="globalsearch" class="globalsearch"> <form action="/search.php?do=process" method="post" id="navbar_search" class="navbar_search"> <input name="securitytoken" value="guest" type="hidden"> <input name="do" value="process" type="hidden"> <span class="textboxcontainer"><span><input name="query" class="textbox" tabindex="99" type="text"></span></span> <span class="buttoncontainer"><span><input class="searchbutton" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100" type="image"></span></span> </form> <ul class="navbar_advanced_search"> <li><a href="http://www.edaboard.com/search.php" accesskey="4">Advanced Search</a></li> </ul> </div> </div> </div> <div class="body_wrapper"> <div id="breadcrumb" class="breadcrumb"> <ul class="floatcontainer"> <li class="navbithome"><a href="http://www.edaboard.com/forum.php" accesskey="1"><img title="Home" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/navbit-home.png" alt="Home"></a></li> <li class="navbit"><a href="http://www.edaboard.com/forum.php">Forum</a></li> <li class="navbit"><a href="http://www.edaboard.com/forum.php#analog-design">Analog Design</a></li> <li class="navbit"><a href="http://www.edaboard.com/forum38.html">Analog Circuit Design</a></li> <li class="navbit lastnavbit"><span> How to determine a quiescent current of MPF102 FET ?</span></li> </ul> <hr> </div> <script type="text/javascript"><!--
+google_ad_client = "ca-pub-5741694739418833";
+/* 728x90 www.EDABOARD.com TOP */
+google_ad_slot = "1592348705";
+google_ad_width = 728;
+google_ad_height = 90;
+//--> </script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/show_ads.js"> </script> <div id="above_postlist" class="above_postlist"> <a href="http://www.edaboard.com/newthread.php?do=newthread&amp;f=38" rel="nofollow" class="newcontent_textcontrol" id="newthreadlink_top"><span>+</span> Post New Thread</a> <div id="pagination_top" class="pagination_top"> <div id="postpagestats_above" class="postpagestats">
+				Results 1 to 6 of 6
+			</div> </div> </div> <div id="pagetitle" class="pagetitle"> <h1> <span class="threadtitle"><a href="http://www.edaboard.com/thread177954.html" title="Reload this Page">How to determine a quiescent current of MPF102 FET ?</a></span> </h1> </div> <div id="thread_controls" class="thread_controls toolsmenu"> <div> <ul id="postlist_popups" class="postlist_popups popupgroup"> <li class="popupmenu" id="linkbacktools"> <h6><a id="yui-gen7" class="popupctrl" href="javascript://">LinkBack</a><a name="goto_linkback"></a></h6> <ul id="yui-gen6" class="popupbody"> <li><a href="http://www.edaboard.com/thread177954.html" onclick="prompt('Use the following URL when referencing this thread from another forum or blog.','http://www.edaboard.com/thread177954.html');return false;"><img title="LinkBack URL" class="inlineimg" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/linkback_url.gif" alt="LinkBack URL"> LinkBack URL</a></li> <li><a rel="nofollow" href="http://www.edaboard.com/misc.php?do=linkbacks"><img title="About LinkBacks" class="inlineimg" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/linkback_about.gif" alt="About LinkBacks"> About LinkBacks</a></li> <li>&nbsp;</li> <li>Bookmark &amp; Share</li> <li><a rel="nofollow" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.edaboard.com%2Fthread177954.html&amp;title=How+to+determine+a+quiescent+current+of+MPF102+FET+%3F" target="_blank">Digg this Thread!</a></li><li><a rel="nofollow" href="http://del.icio.us/post?url=http%3A%2F%2Fwww.edaboard.com%2Fthread177954.html&amp;title=How+to+determine+a+quiescent+current+of+MPF102+FET+%3F" target="_blank">Add Thread to del.icio.us</a></li><li><a rel="nofollow" href="http://technorati.com/faves/?add=http%3A%2F%2Fwww.edaboard.com%2Fthread177954.html" target="_blank">Bookmark in Technorati</a></li><li><a rel="nofollow" href="http://twitter.com/home?status=How+to+determine+a+quiescent+current+of+MPF102+FET+%3F%20http%3A%2F%2Fwww.edaboard.com%2Fthread177954.html" target="_blank">Tweet this thread</a></li> </ul> </li> <li class="popupmenu" id="threadtools"> <h6><a id="yui-gen9" class="popupctrl" href="javascript://">Thread Tools</a></h6> <ul id="yui-gen8" class="popupbody"> <li><a href="http://www.edaboard.com/printthread177954.html" accesskey="3" rel="nofollow">Show Printable Version</a></li> <li><a href="http://www.edaboard.com/dt.php?t=177954" rel="nofollow">Download This Thread</a></li> <li> <a href="http://www.edaboard.com/subscription.php?do=addsubscription&amp;t=177954" rel="nofollow">Subscribe to this Thread…</a> </li> </ul> </li> <li class="popupmenu searchthread menusearch" id="searchthread"> <h6><a id="yui-gen11" class="popupctrl" href="javascript://">Search Thread</a></h6> <form action="/search.php" method="post"> <ul id="yui-gen10" class="popupbody"> <li> <input name="query" class="searchbox" value="Search..." tabindex="13" type="text"> <input class="button" value="Search" tabindex="14" type="submit"> </li> <li class="formsubmit" id="popupsearch"> <div class="submitoptions">&nbsp;</div> <div class="advancedsearchlink"><a rel="nofollow" href="http://www.edaboard.com/search.php?search_type=1&amp;searchthreadid=177954&amp;contenttype=vBForum_Post">Advanced Search</a></div> </li> </ul> <input name="s" value="9e051e93d3ca5a299c91ede3e4e67aa2" type="hidden"> <input name="securitytoken" value="guest" type="hidden"> <input name="do" value="process" type="hidden"> <input name="searchthreadid" value="177954" type="hidden"> <input name="search_type" value="1" type="hidden"> <input name="contenttype" value="vBForum_Post" type="hidden"> </form> </li> </ul> </div> </div> <div id="postlist" class="postlist restrain"> <ol id="posts" class="posts" start="1"> <li class="postbitlegacy postbitim postcontainer old" id="post_745906">  <div class="posthead"> <span class="postdate old"> <span class="date">11-05-10,&nbsp;<span class="time">17:05</span></span> </span> <span class="nodecontrols"> <a name="post745906" href="http://www.edaboard.com/thread177954.html#post745906" class="postcounter">#1</a><a id="postcount745906" name="1"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen12" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->obrien135<!-- google_ad_section_end --></strong></a> </div> <img title="obrien135 is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="obrien135 is offline" border="0"> </div> <span class="usertitle">
+				Full Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/flevel2.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 1,797, Level: 9" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 1,797, Level: 9" alt="Points: 1,797, Level: 9" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="9"> </div> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Nov 2009</dd> <dt>Location</dt> <dd>Connecticut</dd> <dt>Posts</dt> <dd>240</dd> <dt>Helped</dt> <dd>5 / 5</dd> <dt>Points</dt> <dd>1,797</dd><dt>Level</dt> <dd>9</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->How to determine a quiescent current of MPF102 FET ?<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_745906"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->Helllo,<br> <br>
+I am trying to design a Clapp oscillator and a buffer amp using an 
+MPF102 field effect transistor.  The data sheets I am able to find on 
+the internet do not have much info.  There are no charactoristic curves 
+or max drain current specs given.  There is a zero gate voltage drain 
+current spec, but I'm not sure how to determine a quiescent point from 
+that.  Does anyone know how I should approach this or where there might 
+be a batter data sheet?  The MPF102 is the only part that Radio Shack 
+has that will work, but the nearest electronics supply that might have 
+it is a good distance and I'd rather not pay the shipping to order a 
+different type of FET.<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_745906" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_745906" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=745906" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_745906" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> <ul> <li class="postbitlegacy postbitim postcontainer" id="post_745906">  <div class="posthead">&nbsp;&nbsp;<img title="Alt" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/post_old.png" alt="Alt" border="0"><span class="date">11-05-10,&nbsp;<span class="time">17:05</span></span></div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <br> <img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/18.jpg" alt="advertising" title="advertising" height="97px" width="64px"> <dl class="userinfo_extra"> </dl> </div> </div> <div class="postbody"> <br>
+								 &nbsp;&nbsp;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5741694739418833";
+/* 728x90 www.EDABOARD.com inside posts */
+google_ad_slot = "3069081900";
+google_ad_width = 728;
+google_ad_height = 90;
+//--> </script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/show_ads.js"> </script> <div class="cleardiv"></div> </div> </div> <div class="postfoot"> <div class="textcontrols floatcontainer"> <span class="postcontrols">&nbsp;</span> </div> </div> <hr> </li> </ul> <li class="postbitlegacy postbitim postcontainer old" id="post_745907">  <div class="posthead"> <span class="postdate old"> <span class="date">11-05-10,&nbsp;<span class="time">17:09</span></span> </span> <span class="nodecontrols"> <a name="post745907" href="http://www.edaboard.com/thread177954.html#post745907" class="postcounter">#2</a><a id="postcount745907" name="2"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen13" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->betwixt<!-- google_ad_section_end --></strong></a> </div> <img title="betwixt is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="betwixt is offline" border="0"> </div> <span class="usertitle">
+				Advanced Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/hlevel3.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 30,170, Level: 42" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 30,170, Level: 42" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 30,170, Level: 42" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 30,170, Level: 42" alt="Points: 30,170, Level: 42" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="42"> </div> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Jul 2009</dd> <dt>Location</dt> <dd>Aberdyfi, West Wales, UK</dd> <dt>Posts</dt> <dd>4,815</dd> <dt>Helped</dt> <dd>1477 / 1477</dd> <dt>Points</dt> <dd>30,170</dd><dt>Level</dt> <dd>42</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->Re: MPF102 FET question<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_745907"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->This is a very old device!<br> <br>
+Try this link: <a href="http://www.alldatasheet.com/view.jsp?Searchword=MPF102" target="_blank" rel="nofollow">http://www.alldatasheet.com/view.jsp?Searchword=MPF102</a><br> <br>
+Brian.<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div id="helpfulanswers_box_745907" style="font-size: 11px; text-align:left; padding-left: 10px;"> <br><hr style="color:$stylevar[tborder_bgcolor]" size="1"> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_745907" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_745907" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=745907" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_745907" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> <ul> <li class="postbitlegacy postbitim postcontainer" id="post_745907">  <div class="posthead">&nbsp;&nbsp;<img title="Alt" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/post_old.png" alt="Alt" border="0"><span class="date">11-05-10,&nbsp;<span class="time">17:09</span></span></div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <br> <img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/18.jpg" alt="advertising" title="advertising" height="97px" width="64px"> <dl class="userinfo_extra"> </dl> </div> </div> <div class="postbody"> <br>
+								 &nbsp;&nbsp;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5741694739418833";
+/* 728x90 www.EDABOARD.com inside posts */
+google_ad_slot = "3069081900";
+google_ad_width = 728;
+google_ad_height = 90;
+//--> </script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/show_ads.js"> </script> <div class="cleardiv"></div> </div> </div> <div class="postfoot"> <div class="textcontrols floatcontainer"> <span class="postcontrols">&nbsp;</span> </div> </div> <hr> </li> </ul> <li class="postbitlegacy postbitim postcontainer old" id="post_745923">  <div class="posthead"> <span class="postdate old"> <span class="date">11-05-10,&nbsp;<span class="time">18:05</span></span> </span> <span class="nodecontrols"> <a name="post745923" href="http://www.edaboard.com/thread177954.html#post745923" class="postcounter">#3</a><a id="postcount745923" name="3"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen14" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->obrien135<!-- google_ad_section_end --></strong></a> </div> <img title="obrien135 is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="obrien135 is offline" border="0"> </div> <span class="usertitle">
+				Full Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/flevel2.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 1,797, Level: 9" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 1,797, Level: 9" alt="Points: 1,797, Level: 9" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="9"> </div> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Nov 2009</dd> <dt>Location</dt> <dd>Connecticut</dd> <dt>Posts</dt> <dd>240</dd> <dt>Helped</dt> <dd>5 / 5</dd> <dt>Points</dt> <dd>1,797</dd><dt>Level</dt> <dd>9</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->Re: MPF102 FET question<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_745923"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->Thank
+ you for your reply, Brian.  The data sheet on the link you posted, has 
+basically the same info that the other ones have.  Are there any that 
+have the charactoristic curves such as Drain current vs Gate to source 
+voltage, and such?  I am not familiar with how to determine a quiescent 
+current from the info on the data sheets I have seen so far.<br> <br>
+Thank you,<br> <br>
+George<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div id="helpfulanswers_box_745923" style="font-size: 11px; text-align:left; padding-left: 10px;"> <br><hr style="color:$stylevar[tborder_bgcolor]" size="1"> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_745923" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_745923" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=745923" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_745923" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> <ul> <li class="postbitlegacy postbitim postcontainer" id="post_745923">  <div class="posthead">&nbsp;&nbsp;<img title="Alt" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/post_old.png" alt="Alt" border="0"><span class="date">11-05-10,&nbsp;<span class="time">18:05</span></span></div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <br> <img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/18.jpg" alt="advertising" title="advertising" height="97px" width="64px"> <dl class="userinfo_extra"> </dl> </div> </div> <div class="postbody"> <br>
+								 &nbsp;&nbsp;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5741694739418833";
+/* 728x90 www.EDABOARD.com inside posts */
+google_ad_slot = "3069081900";
+google_ad_width = 728;
+google_ad_height = 90;
+//--> </script> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/show_ads.js"> </script> <div class="cleardiv"></div> </div> </div> <div class="postfoot"> <div class="textcontrols floatcontainer"> <span class="postcontrols">&nbsp;</span> </div> </div> <hr> </li> </ul> <li class="postbitlegacy postbitim postcontainer old" id="post_745931">  <div class="posthead"> <span class="postdate old"> <span class="date">11-05-10,&nbsp;<span class="time">18:26</span></span> </span> <span class="nodecontrols"> <a name="post745931" href="http://www.edaboard.com/thread177954.html#post745931" class="postcounter">#4</a><a id="postcount745931" name="4"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen15" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->FvM<!-- google_ad_section_end --></strong></a> </div> <img title="FvM is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="FvM is offline" border="0"> </div> <span class="usertitle">
+				Advanced Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/hlevel4.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 144,955, Level: 91" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 144,955, Level: 91" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 144,955, Level: 91" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 144,955, Level: 91" alt="Points: 144,955, Level: 91" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="91"> </div> <span class="usertitle">
+Achievements:<br> <img style="vertical-align: middle;" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/calendar_newred_7_16.png" alt="7 years registered" title="7 years registered" border="0" height="16" width="16"> </span> <span class="usertitle">
+Awards:<br> <img style="vertical-align: middle;" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/award_star_helpful_16.png" alt="Helpful gold" title="Helpful gold" border="0" height="16" width="16"> </span> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Jan 2008</dd> <dt>Location</dt> <dd>Bochum, Germany</dd> <dt>Posts</dt> <dd>22,426</dd> <dt>Helped</dt> <dd>6834 / 6834</dd> <dt>Points</dt> <dd>144,955</dd><dt>Level</dt> <dd>91</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->Re: MPF102 FET question<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_745931"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->Use basic ideal FET equations<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div id="helpfulanswers_box_745931" style="font-size: 11px; text-align:left; padding-left: 10px;"> <br><hr style="color:$stylevar[tborder_bgcolor]" size="1"> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_745931" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_745931" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=745931" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_745931" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> <li class="postbitlegacy postbitim postcontainer old" id="post_745934">  <div class="posthead"> <span class="postdate old"> <span class="date">11-05-10,&nbsp;<span class="time">18:31</span></span> </span> <span class="nodecontrols"> <a name="post745934" href="http://www.edaboard.com/thread177954.html#post745934" class="postcounter">#5</a><a id="postcount745934" name="5"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen16" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->karesz<!-- google_ad_section_end --></strong></a> </div> <img title="karesz is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="karesz is offline" border="0"> </div> <span class="usertitle">
+				Advanced Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/hlevel2.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 21,816, Level: 35" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 21,816, Level: 35" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 21,816, Level: 35" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 21,816, Level: 35" alt="Points: 21,816, Level: 35" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="35"> </div> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Apr 2008</dd> <dt>Location</dt> <dd>EU</dd> <dt>Posts</dt> <dd>2,320</dd> <dt>Helped</dt> <dd>325 / 325</dd> <dt>Points</dt> <dd>21,816</dd><dt>Level</dt> <dd>35</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->MPF102 FET question<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_745934"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->Hi,<br>
+these is the maximum what I have-maybe not more for you as the others...<br>
+K.<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div id="helpfulanswers_box_745934" style="font-size: 11px; text-align:left; padding-left: 10px;"> <br><hr style="color:$stylevar[tborder_bgcolor]" size="1"> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_745934" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_745934" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=745934" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_745934" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> <li class="postbitlegacy postbitim postcontainer old" id="post_746026">  <div class="posthead"> <span class="postdate old"> <span class="date">12-05-10,&nbsp;<span class="time">03:11</span></span> </span> <span class="nodecontrols"> <a name="post746026" href="http://www.edaboard.com/thread177954.html#post746026" class="postcounter">#6</a><a id="postcount746026" name="6"></a> </span> </div> <div class="postdetails"> <div class="userinfo"> <div class="username_container"> <div id="yui-gen17" class="popupmenu memberaction"> <a class="username offline "><strong><!-- google_ad_section_start(weight=ignore) -->obrien135<!-- google_ad_section_end --></strong></a> </div> <img title="obrien135 is offline" class="inlineimg onlinestatus" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/user-offline.png" alt="obrien135 is offline" border="0"> </div> <span class="usertitle">
+				Full Member level 5
+			</span> <span class="rank"><img src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/flevel2.gif" alt="" border=""></span> <div style="width:102px; height:4px;"></div> <div title="Points: 1,797, Level: 9" style="width:102px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_faded.png);"> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_left.png); display:inline; float:left;"></div> <div title="Points: 1,797, Level: 9" style="width:1px; height:11px; margin-bottom:2px; background-image:url(http://www.edaboard.com/xperience/progress/blue_right.png); display:inline; float:right;"></div> <img title="Points: 1,797, Level: 9" alt="Points: 1,797, Level: 9" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/blue.png" align="left" height="11" width="9"> </div> <hr> <dl class="userinfo_extra"> <dt>Join Date</dt> <dd>Nov 2009</dd> <dt>Location</dt> <dd>Connecticut</dd> <dt>Posts</dt> <dd>240</dd> <dt>Helped</dt> <dd>5 / 5</dd> <dt>Points</dt> <dd>1,797</dd><dt>Level</dt> <dd>9</dd> </dl> <div class="imlinks"> </div> </div> <div class="postbody"> <div class="postrow"> <h2 class="title icon"> <!-- google_ad_section_start -->Re: MPF102 FET question<!-- google_ad_section_end --> </h2> <div class="content"> <div id="post_message_746026"> <blockquote class="postcontent restore "> <!-- google_ad_section_start -->Thanks FvM,  <br> <br>
+The equations enabled me to calculate the resister values to use based 
+on the data in the data sheet.  I guess I have forgotten a lot over the 
+years , or maybe I learned a different way of doing it.  I should have 
+known those equations.<br> <br>
+George<!-- google_ad_section_end --> </blockquote> </div> </div> </div> <div id="helpfulanswers_box_746026" style="font-size: 11px; text-align:left; padding-left: 10px;"> <br><hr style="color:$stylevar[tborder_bgcolor]" size="1"> </div> <div class="cleardiv"></div> </div> </div> <div class="postfoot">  <div class="textcontrols floatcontainer"> <span class="postcontrols"> <img style="display:none" id="progress_746026" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/progress.gif" alt=""> <a id="qrwq_746026" class="newreply" href="http://www.edaboard.com/newreply.php?do=newreply&amp;p=746026" rel="nofollow" title="Reply With Quote"><img title="Reply With Quote" id="quoteimg_746026" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/clear.gif" alt="Reply With Quote">  Reply With Quote</a> </span> <span class="postlinking"> </span>  </div> </div> <hr> </li> </ol> <div class="separator"></div> <div class="postlistfoot"> </div> </div> <div id="below_postlist" class="noinlinemod below_postlist"> <a href="http://www.edaboard.com/newthread.php?do=newthread&amp;f=38" rel="nofollow" class="newcontent_textcontrol" id="newthreadlink_top"><span>+</span> Post New Thread</a> <div id="pagination_bottom" class="pagination_bottom"> </div> </div>  <div class="navlinks"> <strong>«</strong> <a href="http://www.edaboard.com/thread177920.html">i need help in designing a simple low noise op amp.</a>
+			|
+			<a href="http://www.edaboard.com/thread73959.html">high voltage mixed signal design</a> <strong>»</strong> </div>  <div id="thread_info" class="thread_info block"> <div id="similar_threads"> <h4 class="threadinfohead blockhead">Similar Threads</h4> <div id="similar_threads_list" class="thread_info_block blockbody formcontrols"> <ol class="similar_threads"> <li class="floatcontainer"> <div class="titleblock" style="margin-bottom: -10px;"> <h6 style="font-size: 11px; font-weight: normal;"><a href="http://www.edaboard.com/thread78837.html" title="For class AB output stages, how do we choose the output quiescent current such that it functions optimally? E.g. if the maximum output current is...">Quiescent current selection?</a> (2)</h6> </div> </li> <li class="floatcontainer"> <div class="titleblock" style="margin-bottom: -10px;"> <h6 style="font-size: 11px; font-weight: normal;"><a href="http://www.edaboard.com/thread49427.html" title="what is the quiescent current in PA? somebody told me that is the dc collector current value, right? 
+ 
+thanks.">Quiescent Current in RF PA</a> (4)</h6> </div> </li> <li class="floatcontainer"> <div class="titleblock" style="margin-bottom: -10px;"> <h6 style="font-size: 11px; font-weight: normal;"><a href="http://www.edaboard.com/thread63544.html" title="hello 
+ 
+how to measure quiescent current of LDO? 
+should i simply set Iload to 0A and measure current flowing from vdd? 
+ 
+the second thing is on...">How to measure quiescent current of LDO?</a> (3)</h6> </div> </li> <li class="floatcontainer"> <div class="titleblock" style="margin-bottom: -10px;"> <h6 style="font-size: 11px; font-weight: normal;"><a href="http://www.edaboard.com/thread31548.html" title="In a operational Amplifier 
+ 
+What is Quiescent Current? 
+ 
+and Supply Current?">Quiescent Current y Supply Current ???</a> (4)</h6> </div> </li> <li class="floatcontainer"> <div class="titleblock" style="margin-bottom: -10px;"> <h6 style="font-size: 11px; font-weight: normal;"><a href="http://www.edaboard.com/thread11067.html" title="Hi, 
+ 
+I search for an equivalent for MPF102 N-Channel FET ? 
+ 
+Thanks">MPF102 N-Channel FET Equivalent ?</a> (1)</h6> </div> </li> </ol> <br> </div> </div> <div class="options_block_container"> </div> </div> <div style="clear: left"> </div> <div id="footer" class="floatcontainer footer"> <form action="/forum.php" method="get" id="footer_select" class="footer_select"> <select name="styleid" onchange="switch_id(this, 'style')"> <optgroup label="Quick Style Chooser"><option class="hidden"></option></optgroup> <optgroup label="&nbsp;Standard Styles"> <option value="6" class="" selected="selected">-- Edaboard Classic</option> </optgroup> <optgroup label="&nbsp;Mobile Styles"> <option value="13" class="">-- Default Mobile Style</option> </optgroup> </select> </form> <ul id="footer_links" class="footer_links"> <li><a href="http://www.edaboard.com/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a></li> <li><a href="http://www.edaboard.com/">Forum for Electronics</a></li> <li><a rel="nofollow" href="http://www.edaboard.com/misc.php?do=vsarules">Privacy Statement</a></li> <li><a rel="nofollow" href="http://www.edaboard.com/misc.php?do=vsarules">Terms of Service</a></li> <li><a href="http://www.edaboard.com/thread177954.html#top" onclick="document.location.hash='top'; return false;">Top</a></li> </ul> <script type="text/javascript"> <!--
+		// Main vBulletin Javascript Initialization
+		vBulletin_init();
+	//--> </script> </div> </div>  <div class="below_body"> <div id="footer_time" class="shade footer_time">All times are GMT +1. The time now is <span class="time">00:17</span>.</div> <div class="shade footer_copyright"> 
+	Powered by <a rel="nofollow" href="http://www.vbulletin.com/" id="vbulletinlink">vBulletin™</a><br>Copyright © 2010 vBulletin Solutions, Inc. All rights reserved. 
+	
+<br><!-- google_ad_section_start(weight=ignore) -->SEO by vBSEO ©2011, Crawlability, Inc.<!-- google_ad_section_end --> </div> <div id="footer_morecopyright" class="shade footer_morecopyright">   </div> <div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/xd_arbiter.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/xd_arbiter_002.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div> <script type="text/javascript" src="How%20to%20determine%20a%20quiescent%20current%20of%20MPF102%20FET%20%3F_files/vbulletin_facebook.js"></script> <script type="text/javascript"> <!--
+	loadFacebookAPI('en_US');
+	function fbAsyncInit()
+	{
+		vBfb = new vB_Facebook({
+			appid : "120141238037730",
+			connected : 0,
+			active : 0,
+			autoreg : 1,
+			feed_newthread : 1,
+			feed_postreply : 0,
+			feed_blogentry : 1,
+			feed_blogcomment : 0,
+			feed_newarticle : 0,
+			feed_articlecomment : 0
+		});
+	}
+// --> </script> </div> <div id="footer_copyright" class="shade footer_copyright"></div> <script type="text/javascript">
+_gaq.push(['_setCustomVar', 1, 'Section', 'Analog Circuit Design',1]);
+</script> 
+<script type="text/javascript">
+//<![CDATA[
+
+window.orig_onload = window.onload;
+window.onload = function() {
+var cpost=document.location.hash.substring(1);var cpost2='';if(cpost){ var ispost=cpost.substring(0,4)=='post';if(ispost)cpost2='post_'+cpost.substring(4);if((cobj = fetch_object(cpost))||(cobj = fetch_object(cpost2))){cobj.scrollIntoView(true);}else if(ispost){cpostno = cpost.substring(4,cpost.length);if(parseInt(cpostno)>0){location.replace('http://www.edaboard.com/showthread.php?p='+cpostno);};} }
+
+if(typeof window.orig_onload == "function") window.orig_onload();
+}
+
+//]]>
+</script>
+ </body></html>

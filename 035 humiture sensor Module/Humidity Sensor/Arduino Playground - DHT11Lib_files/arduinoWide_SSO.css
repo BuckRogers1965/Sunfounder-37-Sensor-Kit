@@ -1,0 +1,232 @@
+body{
+	margin: 0;
+	padding: 0;
+	font: 90%/1.65 Georgia,"Times New Roman",Times,serif;
+	background: url(img/bg.gif) repeat-x left 155px;
+	}
+h1{
+	font-family: "Lucida Sans", Lucida, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.7em;
+	}
+h2{
+	font-family: "Lucida Sans", Lucida, Verdana, sans-serif;
+	color: #333;
+	margin-top: 30px;
+	margin-bottom: 0;
+	}
+h2 a{
+	border-bottom-color: #e3a586;
+	color: #e34c00!important;
+	font-weight: bold;
+	}
+h3{
+	font-family: "Lucida Sans", Lucida, Verdana, sans-serif;
+	color: #555;
+	}
+h3 a{
+	border-bottom-color: #e3a586!important;
+	color: #e34c00!important;
+	font-weight: bold;
+	}
+h3 a:hover{
+	font-weight: bold;
+	}
+p ul li{
+	color: #555;
+	}
+a{
+	color: #111;
+	}
+hr{
+	border-top: 1px dotted #555;
+	}
+ul{
+	padding: 0 15px;
+	list-style-position: inside;
+	margin: 10px 0;
+	}
+ul ul{
+	padding: 0 15px;
+	list-style-position: inside;
+	margin-top: 0;
+	}
+#wikitext p strong span{
+	font-size: 1.3em!important;
+	font-family: "Lucida Sans", Lucida, Verdana, sans-serif;
+	}
+a, a:link{
+	color: #000;
+	text-decoration: none!important;
+	border-bottom: 1px dotted #555;
+	}
+a:hover{
+	text-decoration: none;
+	padding-bottom: 0;
+	color: #00979c;
+	border-bottom: solid 1px #00979c;
+	}
+a.selflink{
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 0 solid white;
+	}
+a.addthis_button_compact,a.addthis_button_print,a.addthis_button_email,a.addthis_button_favorites,a.addthis_button_facebook,a.addthis_button_twitter{
+	border-bottom: 0 solid white;
+	}
+#page{
+	width: 750px;
+  margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	}
+#pageheader{
+	height: 140px;
+	text-align: right;
+	padding-top: 20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+#pageheader .title{
+	width: 300px;
+	float: left;
+	text-align: left;
+	padding-top: -19px;
+	font-size: 38px;
+	letter-spacing: 0;
+	color: #fff;
+	font-weight: bold;
+	}
+#pageheader img{
+	border:0px;
+	}
+#logo {
+	 position: relative;
+	 top: 0px;
+	 left: 0px;
+	 display: block;
+	 width: 116px;
+	 height: 79px;
+	 cursor: pointer;
+	 background: url(./img/logo.png) no-repeat;
+}
+#logo_tagline {
+	 position: relative;
+	 top: 0px;
+	 left: 0px;
+	 display: block;
+	 width: 140px;
+	 height: 79px;
+	 cursor: pointer;
+	 background: url(./img/logo_playground_arduino_tagline.png) no-repeat;
+}
+#pageheader .title a + a{
+	color: #fff;
+	display: block;
+	float: left;
+	height: 90px;
+	width: 145px;
+	border: none;
+	}
+#pageheader .title a:first-child{
+	color: #fff;
+	display: block;
+	float: left;
+	height: 90px;
+	width: 115px;
+	border: none;
+	}
+#pageheader .title a:hover{
+	color: #fff;
+	border: none;
+	background-color: transparent;
+	}
+#pagenav{
+	float: left;
+	width: 200px;
+	margin-top: -27px;
+	}
+#pagenav ul{
+	padding: 0;
+	list-style-position: inside;
+	padding-left: 15px;
+	}
+#pagenav p{
+	padding-bottom: 10px;
+	margin-top: 0;
+	border-bottom: dotted 1px #999;
+	}
+#pagenav p:first-child{
+	font-family: "Lucida Sans", Lucida, Verdana, sans-serif;
+	line-height: 1.6em;
+	color: #00979c;
+	width: 260px;
+	border-bottom: 0;
+	}
+#pagenav p:first-child a{
+	color: #00979c;
+	}
+#pagenav p:first-child em{
+	font-style: normal;
+	}
+#pagenav p.sidehead{
+	border: 0;
+	padding-bottom: 0;
+	margin-bottom: 3px;
+	}
+#pagenav p.vspace{
+	display: none;
+	}
+#pageactions{
+	margin-left: 261px;
+	padding-bottom: 10px;
+	color: #555;
+	background-color: #fff;
+	font-size: .8em;
+	text-align: right;
+	}
+#pageactions ul{
+	list-style: none;
+	margin: 0;
+	padding: 2px;
+	}
+#pageactions li{
+	display: inline;
+	margin: 0;
+	padding: 2px;
+	}
+#pageactions a{
+	margin-right: 10px;
+	}
+#pagetext{
+	margin-left: 260px;
+	color: #555;
+	background-color: #fff;
+	}
+#pagefooter{
+	clear: both;
+	margin-left: 180px;
+	height: 30px;
+	padding-top: 15px;
+	padding-left: 20px;
+	color: #666;
+	}
+#pagefooter a{
+	border: none;
+	padding: 2px;
+	}
+#pagefooter a:hover{
+	color: #111;
+	background-color: #eee;
+	}
+.addthis_container{
+	margin-top: 40px;
+	}
+img{
+	max-width: 100%;
+	height: auto;
+	}
+.search{
+	margin-top: 55px;
+	}
+

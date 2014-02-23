@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html class="js js flexbox canvas canvastext no-webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms no-csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><head profile="http://www.w3.org/1999/xhtml/vocab"><style type="text/css"></style><!--start head section-->
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="http://www.hobbyist.co.nz/misc/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="alternate" type="application/rss+xml" title="RSS - dht11" href="http://www.hobbyist.co.nz/?q=taxonomy/term/10/feed">
+	  <title>dht11 | www.hobbyist.co.nz</title>
+	  <link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_G7KX3_byH6Dfk2XFYe4EQksFgmD3tERpqsL1tGXlngk.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_oTSWunEyr5AVtF1Etq88TiOVn3K9rVM7RrgzTNbSBzM.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_QvPYBxR6Gm3CYtDC9sU-_S8j7yLrYGchRCMMsW9OVlI.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_isKWPsxBkAtPs9IvkFw_RfvbSoQtwsJxnFuhvdqDy2M.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_rSbMAudflQzB73dSQAm_OcgIayii0HuJf7eALvCFwug.css" media="print">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_yTvs20ipy_G_esuc6SQtMk25yQzoNiusl2Be7IyJp7E.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_ee_TFP9k1oY49oFQ5ZL3s_YwG5PyEKOgFCr9ZPw9cW8.css" media="all">
+<link type="text/css" rel="stylesheet" href="dht11%20%7C%20www.hobbyist.co.nz_files/css_sCGfceAwGFl78GMGUe7qBI8g_eORLHFcFVhbdmc869o.css" media="all">
+	  <script src="dht11%20%7C%20www.hobbyist.co.nz_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="dht11%20%7C%20www.hobbyist.co.nz_files/js_m1OCmgU-ZAMznppomtRk60DBslOowUbVG4K6gMKdwCM.js"></script>
+<script type="text/javascript" src="dht11%20%7C%20www.hobbyist.co.nz_files/js_t7NEjDEUUTEB4AbW4guoLunDW3paKFdJqfI-tor7suY.js"></script>
+<script type="text/javascript" src="dht11%20%7C%20www.hobbyist.co.nz_files/js_5DshTOG0diQLAFvpy_9-vCkyK3H2rW_HlZPxUlgxtIc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-23919740-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="dht11%20%7C%20www.hobbyist.co.nz_files/js_7wxghFVs-T36Et6AGa96g840b6RAOxcpbR3voHm03e8.js"></script>
+<script type="text/javascript" src="dht11%20%7C%20www.hobbyist.co.nz_files/js_5vYGWSJ10mUdC94NvsP2UajJdMXxM14plOPR183ZKl8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","ajaxPageState":{"theme":"marinelli","theme_token":"h9gfod2mHPnFfp4MwLCOZ67kx8hR4t02YrVgC8sIgEE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/jquery.maphilight\/jquery.maphilight.min.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/jq_maphilight\/jq_maphilight.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/marinelli\/js\/hoverintent\/hoverintent.js":1,"sites\/all\/themes\/marinelli\/js\/menu\/marinelli_menu.js":1,"sites\/all\/themes\/marinelli\/js\/cycle\/cycle.js":1,"sites\/all\/themes\/marinelli\/js\/banner\/marinelli_configure_cycle.js":1,"sites\/all\/themes\/marinelli\/js\/modernizer\/modernizr.js":1,"sites\/all\/themes\/marinelli\/js\/marinelli_marinelli.js":1,"sites\/all\/themes\/marinelli\/js\/topregion\/marinelli_topregion.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/ubercart\/uc_attribute\/uc_attribute.css":1,"sites\/all\/modules\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/ubercart\/uc_roles\/uc_roles.css":1,"sites\/all\/modules\/ubercart\/uc_store\/uc_store.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ubercart\/uc_catalog\/uc_catalog.css":1,"sites\/all\/themes\/marinelli\/css\/grid\/grid_1000.css":1,"sites\/all\/themes\/marinelli\/css\/reset\/reset.css":1,"sites\/all\/themes\/marinelli\/css\/common.css":1,"sites\/all\/themes\/marinelli\/css\/links.css":1,"sites\/all\/themes\/marinelli\/css\/typography.css":1,"sites\/all\/themes\/marinelli\/css\/forms.css":1,"sites\/all\/themes\/marinelli\/css\/drupal.css":1,"sites\/all\/themes\/marinelli\/css\/layout.css":1,"sites\/all\/themes\/marinelli\/css\/primary-links.css":1,"sites\/all\/themes\/marinelli\/css\/slideshow.css":1,"sites\/all\/themes\/marinelli\/css\/secondary-links.css":1,"sites\/all\/themes\/marinelli\/css\/blocks.css":1,"sites\/all\/themes\/marinelli\/css\/node.css":1,"sites\/all\/themes\/marinelli\/css\/comments.css":1,"sites\/all\/themes\/marinelli\/css\/pages\/maintenance-page.css":1,"sites\/all\/themes\/marinelli\/css\/print\/print.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3_graphics.css":1,"sites\/all\/themes\/marinelli\/css\/css3\/css3_fonts.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.90","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%","__drupal_alter_by_ref":["default"]},"jq_maphilight":{"fill":"true","fillColor":"ffff00","fillOpacity":0.3,"stroke":"true","strokeColor":"ff0000","strokeOpacity":1,"strokeWidth":"2","fade":"true","alwaysOn":"false","neverOn":"false","groupBy":"false","allMapsEnabled":"true"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"marinelli":{"bartext":"Slide Down","bartext2":"Slide Up","banner_effect":"fade","banner_speed":"1500","banner_delay":"8000","banner_pause":1}});
+//--><!]]>
+</script>
+	</head>
+		<!--[if lt IE 7 ]> <body class="ie6 html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"> <![endif]-->
+	<!--[if IE 7 ]>    <body class="ie7 html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"> <![endif]-->
+	<!--[if IE 8 ]>    <body class="ie8 html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"> <![endif]-->
+	<!--[if IE 9 ]>    <body class="ie9 html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"> <![endif]-->
+	<!--[if gt IE 9]>  <body class="html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"> <![endif]-->
+	<!--[if !IE]><!--> <body class="html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10"><div style="display: none;" id="cboxOverlay"></div><div style="padding-bottom: 25px; padding-right: 30px; display: none;" class="" id="colorbox"><div id="cboxWrapper"><div><div style="float: left;" id="cboxTopLeft"></div><div style="float: left;" id="cboxTopCenter"></div><div style="float: left;" id="cboxTopRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxMiddleLeft"></div><div style="float: left;" id="cboxContent"><div style="width: 0px; height: 0px; overflow: hidden; float: left;" id="cboxLoadedContent"></div><div style="float: left;" id="cboxLoadingOverlay"></div><div style="float: left;" id="cboxLoadingGraphic"></div><div style="float: left;" id="cboxTitle"></div><div style="float: left;" id="cboxCurrent"></div><div style="float: left;" id="cboxNext"></div><div style="float: left;" id="cboxPrevious"></div><div style="float: left;" id="cboxSlideshow"></div><div style="float: left;" id="cboxClose"></div></div><div style="float: left;" id="cboxMiddleRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxBottomLeft"></div><div style="float: left;" id="cboxBottomCenter"></div><div style="float: left;" id="cboxBottomRight"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div> <!--<![endif]-->
+	  <div id="skip-link">
+	    <a href="#content" title="Jump to the main content of this page" class="element-invisible">Jump to Content</a>
+	  </div>
+	  	  
+
+<!--start framework container-->
+<div class="container_12 width_1" id="totalContainer">
+  
+      <!--start main menu-->
+    <div id="navigation-primary" class="sitemenu">
+      <ul class="megamenu-1"><li class="megamenu-li-first-level" id="menu-main-title-198"><a href="http://www.hobbyist.co.nz/">Home</a></li><li class="megamenu-li-first-level" id="menu-main-title-535"><a href="http://www.hobbyist.co.nz/catalog" title="Catalog of all items">Products</a></li><li class="megamenu-li-first-level" id="menu-main-title-545"><a href="http://www.hobbyist.co.nz/diy-tutorials" title="Kits you can build from scratch and make it into cool projects">DIY Tutorials</a><div style="display: none;" class="mega five-col open"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-741"><a href="http://www.hobbyist.co.nz/?q=NetSensor-Arduino-internet-kit" title="NetSensor: Hook your sensors onto internet">Sensor on Internet</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-572"><a href="http://www.hobbyist.co.nz/?q=web-switch-tutorial" title="Turn your kettle on from the internet">Web Switch</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-555"><a href="http://www.hobbyist.co.nz/?q=motor-shield-tutorial" title="How to use a Motor shield and Bluetooth on a robotic platform">DIY Robot with Bluetooth</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-559"><a href="http://www.hobbyist.co.nz/?q=diy-tutorials" title="Weather Station Tutorial">Weather Station</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-569"><a href="http://www.hobbyist.co.nz/?q=dancing-lights" title="Make the Party lights flash to the tune of your music..">Disco Lights Flash to Music</a></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-560"><a href="http://www.hobbyist.co.nz/shipping" title="">FREE Shipping</a></li><li class="megamenu-li-first-level" id="menu-main-title-542"><a href="http://www.hobbyist.co.nz/contact-us" title="Contact information">Contact us</a></li><li class="megamenu-li-first-level" id="menu-main-title-740"><a href="http://www.hobbyist.co.nz/?q=consulting" title="The consulting and product development services we provide.">Consulting Services</a></li><li class="megamenu-li-first-level" id="menu-main-title-597"><a href="http://www.hobbyist.co.nz/need-a-job" title="Hobbyist will pay you for building cool kits.">Need a Job?</a></li></ul>    </div>
+    <!--end main menu-->
+  
+  <!--border start-->
+  <div id="pageBorder">
+          <!--start advertise section-->
+      <div id="header-images">
+                  <div id="header-image-text" class=""><div id="header-image-text-data"><h2 id="header-image-title"><a href="http://www.hobbyist.co.nz/?q=dancing-lights" class="bannerlink" title="See this content">Make the party lights dance to music [ kit ]</a></h2><p id="header-image-description"><a href="http://www.hobbyist.co.nz/?q=dancing-lights" class="bannerlink" title="See this content">Cool kit which gives life to the lights and makes them dance to the tune of the music..</a></p></div></div>          <div id="header-image-navigation" class=""><a href="#" id="header-image-prev" title="Previous Ad">‹</a><a href="#" id="header-image-next" title="Next Ad">›</a></div>          <a href="http://www.hobbyist.co.nz/?q=weather-station"><img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 1018px; height: 320px;" class="slide" id="slide-number-0" longdesc="A complete DIY kit with instructions to build your own WeatherStation" typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/WeatherStation.JPG" alt="A complete DIY kit with instructions to build your own WeatherStation" title="Weather Station"></a><a href="http://www.hobbyist.co.nz/?q=bluetooth-mars-rover"><img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 1018px; height: 320px;" class="slide" id="slide-number-1" longdesc="Robust Robotic platform for the hobbyists " typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/20101106110828289.jpg" alt="Robust Robotic platform for the hobbyists " title="MARS Rover"></a><a href="http://www.hobbyist.co.nz/?q=terminator-tutorial"><img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 0.854293; width: 1018px; height: 320px;" class="slide" id="slide-number-2" longdesc="Arduino based android controlled robot" typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/Terminator_ortho_1020x320.jpg" alt="Arduino based android controlled robot" title="Terminator : Android controlled rover"></a><a href="http://www.hobbyist.co.nz/?q=dancing-lights"><img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 7; opacity: 0.143497; width: 1018px; height: 320px;" class="slide" id="slide-number-3" longdesc="Cool kit which gives life to the lights and makes them dance to the tune of the music.." typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/Pub_lights_1020x320.jpg" alt="Cool kit which gives life to the lights and makes them dance to the tune of the music.." title="Make the party lights dance to music [ kit ]"></a><a href="http://www.hobbyist.co.nz/"><img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 1018px; height: 320px;" class="slide" id="slide-number-4" longdesc="Variety of DIY kits for every hobbyist.." typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/open_hw_1020_320.png" alt="Variety of DIY kits for every hobbyist.." title="Hobbyist"></a><a href="http://www.hobbyist.co.nz/NetSensor-Arduino-internet-kit"><img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 1018px; height: 320px;" class="slide" id="slide-number-5" longdesc="Arduino kit to connect temp and humidity sensors to the internet, All you need is a browser and you can see the data anywhere in the world." typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/NetSensorLogo.jpg" alt="Arduino kit to connect temp and humidity sensors to the internet, All you need is a browser and you can see the data anywhere in the world." title="NetSensor: Monitor your sensors from anywhere in the world"></a>              </div>
+      <!--end advertise-->
+    		
+		
+    <!-- start contentWrapper-->
+    <div id="contentWrapper">
+      <!--start breadcrumb -->
+              <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="http://www.hobbyist.co.nz/">Home</a> » dht11</div></div>
+            <!-- end breadcrumb -->
+		
+			
+      <!--start innercontent-->
+			<div id="innerContent">
+
+        <!--start main content-->
+				<div class="grid_8 push_4" id="siteContent">
+				
+						   				
+	   					           	
+		      
+                      <h1 id="page-title">dht11</h1>
+          
+                    
+                      <div class="tab-container">
+                          </div>
+          
+          
+          
+          <!--start drupal content-->
+          <div id="content">
+            <!-- start region -->
+<div class="region region region-content">
+  <div id="block-system-main" class="block block-system">
+        <div class="content">
+    
+<div class="teaser-container node node-article node-teaser" about="/?q=documentations/booting-up-the-weather-station" typeof="sioc:Item foaf:Document">
+	<div class="teaser-content">
+		<h2 class="teaser-title">
+		<a href="http://www.hobbyist.co.nz/?q=documentations/booting-up-the-weather-station">Booting up the Weather Station</a>				</h2>
+					<div class="teaser-text">
+			<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><span style="color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: underline; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;">Wiring the Arduino + LCD + &nbsp;DHT11</span></p>
+<p><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;"> First of all, you will need to wire the DHT11 sensor and the LCD as shown in the circuit diagram below:</span><br><span style="font-family: verdana, geneva; font-size: medium;"> <img src="dht11%20%7C%20www.hobbyist.co.nz_files/DHT-11-wiring.jpg" border="0" height="489" width="570"></span><br><span style="font-family: verdana, geneva; font-size: medium;"> &nbsp;<map id="imgmap201221173521" name="imgmap201221173521"><area shape="rect" title="USB" alt="" coords="555,180,595,206" target=""></map><map id="imgmap201221175024" name="imgmap201221175024"></map></span></p>
+<p dir="ltr" style="margin-left: 120pt; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;">Fig 1: Circuit to wire up the Arduino the LCD and the DHT11 sensor</span></p>
+<p><span style="color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: underline; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;"> Loading the program to get the weather station going:</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;"> <span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">The code for reading the Sensor data and displaying it on the LCD is available </span><a href="http://code.google.com/p/weather--station/source/browse/trunk/WeatherStation.ino" target="_blank">here</a><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">,</span></span><br><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;"> The code is very easy to read and understand and you can tweak it to your advantage..</span></p>
+<p><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;">
+ Once the code is loaded the Weather Station should be reading the 
+Temperature and Humidity reading and displaying it on the cool blue 
+backlight screen!!!</span><br><span style="font-family: verdana, geneva; font-size: medium;"> <img src="dht11%20%7C%20www.hobbyist.co.nz_files/W5qorWFpEhRhHlg0ob2EnzslSHLiX4dZuNAoHp3L7dcd-hKb5WW5kOFK35D.jpeg" border="0" height="372px;" width="427px;"></span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;"> &nbsp;</span></p>
+<h2 dir="ltr"><span style="font-family: verdana, geneva; font-size: medium;"><a href="http://www.hobbyist.co.nz/?q=node/15"><span style="color: #000099; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: underline; vertical-align: baseline;">GET A WEATHERSTATION!</span></a></span></h2>
+<p><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; font-family: verdana, geneva; font-size: medium;">
+ NOTE: We leave the interfacing of the light sensor as a task for the 
+hobbyist, But if you get stuck drop us a line and we will send you the 
+link to interface it!</span></p>
+</div></div></div>      		</div>
+	</div>
+  <div class="teaser-meta">
+      <span class="teaser-readmore"><a href="http://www.hobbyist.co.nz/?q=documentations/booting-up-the-weather-station" class="node-readmore-link">read more</a></span>
+  </div>
+</div><!--end teaser container-->  </div>
+</div> <!-- /block --></div>
+<!-- end region -->          </div>
+          <!--end drupal content-->
+
+          <a href="http://www.hobbyist.co.nz/?q=taxonomy/term/10/feed" class="feed-icon" title="Subscribe to RSS - dht11"><img typeof="foaf:Image" src="dht11%20%7C%20www.hobbyist.co.nz_files/feed.png" alt="Subscribe to RSS - dht11"></a>
+          
+        </div>
+        <!--end main content-->
+	 			
+	 					    		
+		              <!--start first sidebar-->
+          <div class="grid_4 pull_8 sidebar" id="sidebar-first">
+						<!-- start region -->
+<div class="region region region-sidebar-first">
+  <div id="block-search-form" class="block block-search">
+        <div class="block-title">
+      <h2 class="title">Search</h2>
+    </div>
+      <div class="content">
+    <form action="/?q=taxonomy/term/10" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." id="edit-search-block-form--2" name="search_block_form" size="15" maxlength="128" class="form-text" type="text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input id="edit-submit" name="op" value="Search" class="form-submit" type="submit"></div><input name="form_build_id" value="form-_HHXFuUorfm0RgUP11qLLnwEJ49LtB7AgIYxRwMRTN8" type="hidden">
+<input name="form_id" value="search_block_form" type="hidden">
+</div>
+
+</div></form>  </div>
+</div> <!-- /block --><div id="block-uc_catalog-catalog" class="block block-uc-catalog">
+        <div class="block-title">
+      <h2 class="title">Catalog</h2>
+    </div>
+      <div class="content">
+    <ul class="catalog menu"><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/41">3D Printing (3)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=arduino">Arduino (5)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/42">DIY Tools (1)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=diy-kits">DIY Kits (10)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=arduino-shields">Arduino Shields (9)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=robotics">Robotics (4)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/36">Wireless (4)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=parts-and-components">Modules (10)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/33">Sensors (9)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/37">Actuators (4)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/35">Android (2)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/38">Power supply (2)</a></span>
+</li><li class="expanded"><span class="trail"><a href="http://www.hobbyist.co.nz/?q=catalog/40">Development Boards (1)</a></span>
+</li></ul>  </div>
+</div> <!-- /block --></div>
+<!-- end region -->	
+          </div>
+          <!--end first sidebar-->
+        		    
+        						
+						
+				      
+      </div>
+      <!--end innerContent-->
+
+
+          </div>
+    <!--end contentWrapper-->
+
+	</div>
+  <!--close page border Wrapper-->
+
+  
+</div>
+<!--end framework container-->
+	  	
+</body><!--end body--></html>
