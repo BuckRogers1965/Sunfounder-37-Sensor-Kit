@@ -29,7 +29,7 @@ by the name of the kit.
 There is a picture with name of each of the items in the kit
 entitled 35Sensor.jpg.  Evidently 2 sensors are missing from 
 the picture list.  No guarantee that the name from the picture
-corrisponds to the name of the folder.
+corresponds to the name of the folder.
 
 There is a 37-1.pdf file that has a little info and sketches for
 every project.  It appeared to translated from another language,
